@@ -25,9 +25,9 @@
 
 		<!-- Fix Internet Explorer ______________________________________-->
 		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="vendor/html5shiv.js"></script>
-			<script src="vendor/respond.js"></script>
+			<script src="{{ asset('http://html5shiv.googlecode.com/svn/trunk/html5.js') }}"></script>
+			<script src="{{ asset('vendor/html5shiv.js') }}"></script>
+			<script src="{{ asset('vendor/respond.js') }}"></script>
 		<![endif]-->	
 	</head>
 
@@ -84,7 +84,7 @@
 					<div class="container">
 						<div class="inner-wrapper clearfix">
 							<!-- ================= Logo ==================== -->
-							<div class="logo"><a href="index.html"><img src="images/logo/logo.png" alt="logo"></a></div>
+							<div class="logo"><a href="index.html"><img src="{{ asset('images/logo/logo.png') }}" alt="logo"></a></div>
 							<!-- ============== Menu Warpper ================ -->
 					   		<div class="menu-wrapper float-right">
 					   			<nav id="mega-menu-holder" class="clearfix">
@@ -155,7 +155,7 @@
 			============================================== 
 			-->
 			<div id="theme-main-banner" class="banner-one section-spacing">
-				<div data-src="images/home/slide-1.jpg">
+				<div data-src="{{ asset('images/home/slide-1.jpg') }}">
 					<div class="camera_caption text-center">
 						<div class="container">
 							<h1 class="wow fadeInUp animated"><span>Business for</span> Consuling &amp; Investment</h1>
@@ -164,7 +164,7 @@
 						</div> <!-- /.container -->
 					</div> <!-- /.camera_caption -->
 				</div>
-				<div data-src="images/home/slide-2.jpg">
+				<div data-src="{{ asset('images/home/slide-2.jpg') }}">
 					<div class="camera_caption text-center">
 						<div class="container">
 							<h1 class="wow fadeInUp animated"><span>We are Negozu We are Future</span> Coworking &amp; Community</h1>
@@ -378,7 +378,7 @@
 								<p>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendrerit, sollicitudin nec ante. Pellentesque habitant morbi tristique.Rapaciously seize tive infomediaries and user-centric intellectual capital.</p>
 								<div class="help"><p>Just <span>Mail</span> us. We can answer all your questions</p> <a href="#">info@apacheconsult.com.</a></div>
 								<ul class="clearfix">
-									<li><img src="images/home/sign.png" alt=""></li>
+									<li><img src="{{ asset('images/home/sign.png') }}" alt=""></li>
 									<li>
 										<div class="name">Carol J. Stephens</div>
 										<span>CEO Company</span>
@@ -452,7 +452,7 @@
 					<div class="row">
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="single-block">
-								<img src="images/portfolio/1.jpg" alt="">
+								<img src="{{ asset('images/portfolio/1.jpg') }}" alt="">
 								<div class="overlay">
 									<div>
 										<h6><a href="project-details.html">Thought Leadership</a></h6>
@@ -463,7 +463,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="single-block">
-								<img src="images/portfolio/2.jpg" alt="">
+								<img src="{{ asset('images/portfolio/2.jpg') }}" alt="">
 								<div class="overlay">
 									<div>
 										<h6><a href="project-details.html">Thought Leadership</a></h6>
@@ -474,7 +474,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="single-block">
-								<img src="images/portfolio/3.jpg" alt="">
+								<img src="{{ asset('images/portfolio/3.jpg') }}" alt="">
 								<div class="overlay">
 									<div>
 										<h6><a href="project-details.html">Thought Leadership</a></h6>
@@ -485,7 +485,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="single-block">
-								<img src="images/portfolio/4.jpg" alt="">
+								<img src="{{ asset('images/portfolio/4.jpg') }}" alt="">
 								<div class="overlay">
 									<div>
 										<h6><a href="project-details.html">Thought Leadership</a></h6>
@@ -496,7 +496,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="single-block">
-								<img src="images/portfolio/5.jpg" alt="">
+								<img src="{{ asset('images/portfolio/5.jpg') }}" alt="">
 								<div class="overlay">
 									<div>
 										<h6><a href="project-details.html">Thought Leadership</a></h6>
@@ -507,7 +507,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="single-block">
-								<img src="images/portfolio/6.jpg" alt="">
+								<img src="{{ asset('images/portfolio/6.jpg') }}" alt="">
 								<div class="overlay">
 									<div>
 										<h6><a href="project-details.html">Thought Leadership</a></h6>
@@ -518,7 +518,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="single-block">
-								<img src="images/portfolio/7.jpg" alt="">
+								<img src="{{ asset('images/portfolio/7.jpg') }}" alt="">
 								<div class="overlay">
 									<div>
 										<h6><a href="project-details.html">Thought Leadership</a></h6>
@@ -529,7 +529,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="single-block">
-								<img src="images/portfolio/8.jpg" alt="">
+								<img src="{{ asset('images/portfolio/8.jpg') }}" alt="">
 								<div class="overlay">
 									<div>
 										<h6><a href="project-details.html">Thought Leadership</a></h6>
@@ -554,7 +554,7 @@
 			=====================================================
 			-->
 			<div class="faq-section">
-				<img src="images/home/man.png" alt="" class="man-image wow fadeInUp animated" data-wow-delay="0.3s">
+				<img src="{{ asset('images/home/man.png') }}" alt="" class="man-image wow fadeInUp animated" data-wow-delay="0.3s">
 				<div class="container clearfix">
 					<div class="main-wrapper">
 						<div class="faq-tab-wrapper">
@@ -631,11 +631,11 @@
 				<div class="overlay">
 					<div class="container">
 						<div class="partner-slider">
-							<div class="item"><img src="images/logo/p-1.png" alt=""></div>
-							<div class="item"><img src="images/logo/p-2.png" alt=""></div>
-							<div class="item"><img src="images/logo/p-3.png" alt=""></div>
-							<div class="item"><img src="images/logo/p-4.png" alt=""></div>
-							<div class="item"><img src="images/logo/p-5.png" alt=""></div>
+							<div class="item"><img src="{{ asset('images/logo/p-1.png') }}" alt=""></div>
+							<div class="item"><img src="{{ asset('images/logo/p-2.png') }}" alt=""></div>
+							<div class="item"><img src="{{ asset('images/logo/p-3.png') }}" alt=""></div>
+							<div class="item"><img src="{{ asset('images/logo/p-4.png') }}" alt=""></div>
+							<div class="item"><img src="{{ asset('images/logo/p-5.png') }}" alt=""></div>
 						</div>
 					</div> <!-- /.container -->
 				</div> <!-- /.overlay -->
@@ -717,7 +717,7 @@
 						<div class="item">
 							<div class="single-blog-meta">
 								<div class="img-box">
-									<img src="images/blog/1.jpg" alt="">
+									<img src="{{ asset('images/blog/1.jpg') }}" alt="">
 									<a href="#" class="date">25 May 2018</a>
 								</div>
 								<div class="text">
@@ -734,7 +734,7 @@
 						<div class="item">
 							<div class="single-blog-meta">
 								<div class="img-box">
-									<img src="images/blog/2.jpg" alt="">
+									<img src="{{ asset('images/blog/2.jpg') }}" alt="">
 									<a href="#" class="date">21 May 2018</a>
 								</div>
 								<div class="text">
@@ -751,7 +751,7 @@
 						<div class="item">
 							<div class="single-blog-meta">
 								<div class="img-box">
-									<img src="images/blog/3.jpg" alt="">
+									<img src="{{ asset('images/blog/3.jpg') }}" alt="">
 									<a href="#" class="date">15 May 2018</a>
 								</div>
 								<div class="text">
@@ -780,7 +780,7 @@
 			<footer class="theme-footer-one">
 				<div class="container">
 					<div class="top-footer">
-						<div class="logo"><a href="index.html"><img src="images/logo/logo.png" alt="logo"></a></div>
+						<div class="logo"><a href="index.html"><img src="{{ asset('images/logo/logo.png') }}" alt="logo"></a></div>
 						<ul class="clearfix">
 							<li>
 								<i class="icon flaticon-smartphone"></i>
@@ -823,14 +823,14 @@
 								<h6 class="title">Recent Comment</h6>
 								<ul>
 									<li class="clearfix">
-										<img src="images/blog/4.jpg" alt="">
+										<img src="{{ asset('images/blog/4.jpg') }}" alt="">
 										<div class="text">
 											<p><a href="blog-details.html">Geoffrey Weaver</a> commented on Standard <span>gallery</span> post</p>
 											<div class="date"><i class="icon flaticon-clock"></i> May 25, 2018</div>
 										</div>
 									</li>
 									<li class="clearfix">
-										<img src="images/blog/5.jpg" alt="">
+										<img src="{{ asset('images/blog/5.jpg') }}" alt="">
 										<div class="text">
 											<p><a href="blog-details.html">Donald Simpson</a> commented on Standard <span>gallery</span> post</p>
 											<div class="date"><i class="icon flaticon-clock"></i> May 25, 2018</div>
@@ -878,31 +878,31 @@
 
     	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     	<!-- jQuery -->
-		<script src="vendor/jquery.2.2.3.min.js"></script>
+		<script src="{{ asset('vendor/jquery.2.2.3.min.js') }}"></script>
 		<!-- Popper js -->
-		<script src="vendor/popper.js/popper.min.js"></script>
+		<script src="{{ asset('vendor/popper.js/popper.min.js') }}"></script>
 		<!-- Bootstrap JS -->
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
 		<!-- Style-switcher  -->
-		<script src="vendor/jQuery.style.switcher.min.js"></script>
+		<script src="{{ asset('vendor/jQuery.style.switcher.min.js') }}"></script>
 		<!-- Camera Slider -->
-		<script src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
-	    <script src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
-	    <script src='vendor/Camera-master/scripts/camera.min.js'></script>
+		<script src="{{ asset('vendor/Camera-master/scripts/jquery.mobile.customized.min.js') }}"></script>
+	    <script src="{{ asset('vendor/Camera-master/scripts/jquery.easing.1.3.js') }}"></script> 
+	    <script src="{{ asset('vendor/Camera-master/scripts/camera.min.js') }}"></script>
 	    <!-- menu  -->
-		<script src="vendor/menu/src/js/jquery.slimmenu.js"></script>
+		<script src="{{ asset('vendor/menu/src/js/jquery.slimmenu.js') }}"></script>
 		<!-- WOW js -->
-		<script src="vendor/WOW-master/dist/wow.min.js"></script>
+		<script src="{{ asset('vendor/WOW-master/dist/wow.min.js') }}"></script>
 		<!-- owl.carousel -->
-		<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<script src="{{ asset('vendor/owl-carousel/owl.carousel.min.js') }}"></script>
 		<!-- js count to -->
-		<script src="vendor/jquery.appear.js"></script>
-		<script src="vendor/jquery.countTo.js"></script>
+		<script src="{{ asset('vendor/jquery.appear.js') }}"></script>
+		<script src="{{ asset('vendor/jquery.countTo.js') }}"></script>
 		<!-- Fancybox -->
-		<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+		<script src="{{ asset('vendor/fancybox/dist/jquery.fancybox.min.js') }}"></script>
 
 		<!-- Theme js -->
-		<script src="js/theme.js"></script>
+		<script src="{{ asset('js/theme.js') }}"></script>
 		</div> <!-- /.main-page-wrapper -->
 	</body>
 </html>
