@@ -13,7 +13,7 @@
 		<meta name="msapplication-navbutton-color" content="#151515">
 		<!-- iOS Safari -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="#151515">
-		<title>ATD</title>
+		<title>Alliance Tunisienne des Designers</title>
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" sizes="56x56" href="{{ asset('images/fav-icon/icon.png') }}">
 		<!-- Main style sheet -->
@@ -144,15 +144,16 @@
 				<div class="container">
 					<div class="theme-title-one text-center">
 						<h2 class="title">Association culturelle</h2>
-					</div> <!-- /.theme-title-one -->
+					</div> 
 					<div class="row">
 						<div class="col-lg-6 col-12 wow fadeInLeft animated">
 							<div class="text-wrapper">
 								<p>L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
 								<p> L’ATD est un organisme qui se veut représentatif de la profession qui vise à mettre en œuvre des actions design utiles pour le développement local et ouvertes à l’international.</p>
 								<a href="about.html" class="theme-button-one">View More Info</a>
-							</div> <!-- /.text-wrapper -->
-						</div> <!-- /.col- -->
+							</div>
+						</div>
+						<!-- right !-->
 						<div class="col-lg-6 col-12 wow fadeInRight animated">
 							<div class="about-feature">
 								<div class="row">
@@ -161,42 +162,43 @@
 											<i class="icon flaticon-shake"></i>
 											<h6 class="title"><a href="#">Professional</a></h6>
 											<p>Hendrerit hendrerit, sollicitudin Bring to the table</p>
-										</div> <!-- /.single-feature -->
-									</div> <!-- /.col- -->
+										</div> 
+									</div>
 									<div class="col-sm-6">
 										<div class="single-feature">
 											<i class="icon flaticon-money"></i>
 											<h6 class="title"><a href="#">Financial Services</a></h6>
 											<p>Hendrerit hendrerit, sollicitudin Bring to the table</p>
-										</div> <!-- /.single-feature -->
-									</div> <!-- /.col- -->
+										</div> 
+									</div> 
 									<div class="col-sm-6">
 										<div class="single-feature">
 											<i class="icon flaticon-bank"></i>
 											<h6 class="title"><a href="#">Bank Financing</a></h6>
 											<p>Hendrerit hendrerit, sollicitudin Bring to the table</p>
-										</div> <!-- /.single-feature -->
-									</div> <!-- /.col- -->
+										</div> 
+									</div>
 									<div class="col-sm-6">
 										<div class="single-feature">
 											<i class="icon flaticon-notepad"></i>
 											<h6 class="title"><a href="#">Accounting</a></h6>
 											<p>Hendrerit hendrerit, sollicitudin Bring to the table</p>
-										</div> <!-- /.single-feature -->
-									</div> <!-- /.col- -->
-								</div> <!-- /.row -->
-							</div> <!-- /.about-feature -->
+										</div> 
+									</div>
+								</div> 
+							</div> 
 						</div>
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</div> <!-- /.about-compnay -->
+						<!-- right !-->
+					</div>
+				</div> 
+			</div> 
 
 			<!--
 			=====================================================
 				Theme Counter Section
 			=====================================================
 			-->
-			<div class="theme-counter-section">
+			<div class="theme-counter-section section-spacing">
 				<div class="overlay">
 					<div class="container">
 						<h2 class="title">Helping small business to grow and expand</h2>
@@ -305,7 +307,7 @@
 				Latest Project
 			=====================================================
 			-->
-			<div class="latest-project bg-color">
+			<div class="latest-project bg-color section-spacing">
 				<div class="container">
 					<div class="theme-title-one text-center">
 						<h2 class="title">Our Latest Projects</h2>
@@ -537,7 +539,7 @@
 				Partner Section One
 			=====================================================
 			-->
-			<div class="partner-section-one section-spacing">
+			<div class="partner-section-one">
 				<div class="overlay">
 					<div class="container">
 						<div class="partner-slider">
@@ -615,7 +617,7 @@
 
 				<div class="bottom-footer">
 					<div class="container clearfix">
-						<p class="float-left">Copyright 2018 Negozu – All Right Reserved</p>
+						<p class="float-left">Copyright 2022 ATD – All Right Reserved</p>
 						<p class="float-right">Made by Creativegigs Themes</p>
 					</div>
 				</div> <!-- /.bottom-footer -->
