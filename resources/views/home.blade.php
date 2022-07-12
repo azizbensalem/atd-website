@@ -68,49 +68,13 @@
 						<h2 class="title">Association culturelle</h2>
 					</div> 
 					<div class="row">
-						<div class="col-lg-6 col-12 wow fadeInLeft animated">
+						<div class="col-lg-12 col-12 wow fadeInLeft animated">
 							<div class="text-wrapper">
 								<p>L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
 								<p> L’ATD est un organisme qui se veut représentatif de la profession qui vise à mettre en œuvre des actions design utiles pour le développement local et ouvertes à l’international.</p>
 								<a href="about.html" class="theme-button-one">View More Info</a>
 							</div>
 						</div>
-						<!-- right !-->
-						<div class="col-lg-6 col-12 wow fadeInRight animated">
-							<div class="about-feature">
-								<div class="row">
-									<div class="col-sm-6">
-										<div class="single-feature">
-											<i class="icon flaticon-shake"></i>
-											<h6 class="title"><a href="#">Professional</a></h6>
-											<p>Hendrerit hendrerit, sollicitudin Bring to the table</p>
-										</div> 
-									</div>
-									<div class="col-sm-6">
-										<div class="single-feature">
-											<i class="icon flaticon-money"></i>
-											<h6 class="title"><a href="#">Financial Services</a></h6>
-											<p>Hendrerit hendrerit, sollicitudin Bring to the table</p>
-										</div> 
-									</div> 
-									<div class="col-sm-6">
-										<div class="single-feature">
-											<i class="icon flaticon-bank"></i>
-											<h6 class="title"><a href="#">Bank Financing</a></h6>
-											<p>Hendrerit hendrerit, sollicitudin Bring to the table</p>
-										</div> 
-									</div>
-									<div class="col-sm-6">
-										<div class="single-feature">
-											<i class="icon flaticon-notepad"></i>
-											<h6 class="title"><a href="#">Accounting</a></h6>
-											<p>Hendrerit hendrerit, sollicitudin Bring to the table</p>
-										</div> 
-									</div>
-								</div> 
-							</div> 
-						</div>
-						<!-- right !-->
 					</div>
 				</div> 
 			</div> 
