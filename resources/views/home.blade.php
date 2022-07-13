@@ -2,9 +2,10 @@
 @section('menu')
 <ul class="clearfix">
 	<li class="active"><a href="/">Accueil</a></li>
-	<li><a href="/about-us">À propos</a></li>
-	<li><a href="/news">News</a></li>
-	<li><a href="/evenements">Événements à venir</a></li>
+	<li><a href="#about-us">À propos</a></li>
+	<li><a href="#news">News</a></li>
+	<li><a href="#project">Nos projets</a></li>
+	<li><a href="#event">Événements à venir</a></li>
 	<li><a href="/contact">Contact</a></li>
 	<li><a href="/register">Adhésion</a></li>
 </ul>
@@ -62,17 +63,17 @@
 				About Company
 			============================================== 
 			-->
-			<div class="about-compnay section-spacing">
+			<div id="about-us" class="about-compnay section-spacing">
 				<div class="container">
 					<div class="theme-title-one text-center">
-						<h2 class="title">Association culturelle</h2>
+						<h2 class="title">Une association culturelle</h2>
 					</div> 
 					<div class="row">
 						<div class="col-lg-12 col-12 wow fadeInLeft animated">
 							<div class="text-wrapper">
 								<p>L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
 								<p> L’ATD est un organisme qui se veut représentatif de la profession qui vise à mettre en œuvre des actions design utiles pour le développement local et ouvertes à l’international.</p>
-								<a href="about.html" class="theme-button-one">View More Info</a>
+								<!-- <a href="/about-us" class="theme-button-one">Voir plus</a> -->
 							</div>
 						</div>
 					</div>
@@ -84,31 +85,31 @@
 				Theme Counter Section
 			=====================================================
 			-->
-			<div class="theme-counter-section section-spacing">
+			<div id="counter" class="theme-counter-section section-spacing">
 				<div class="overlay">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-4 col-6">
+							<div class="col-md-6 col-6">
 								<div class="single-counter">
 									<i class="icon flaticon-target"></i>
 									<div class="number"><span class="timer" data-from="0" data-to="7" data-speed="1200" data-refresh-interval="5">0</span></div>
 									<p>Le nombre des membres du bureau exécutif</p>
 								</div> <!-- /.single-counter -->
 							</div> <!-- .col- -->
-							<div class="col-md-4 col-6">
+							<div class="col-md-6 col-6">
 								<div class="single-counter">
 									<i class="icon flaticon-suitcase"></i>
 									<div class="number"><span class="timer" data-from="0" data-to="100" data-speed="1200" data-refresh-interval="5">0</span>+</div>
 									<p>Le nombre d’adhérents</p>
 								</div> <!-- /.single-counter -->
 							</div> <!-- .col- -->
-							<div class="col-md-4 col-6">
+							<!-- <div class="col-md-6 col-6">
 								<div class="single-counter">
 									<i class="icon flaticon-trophy"></i>
 									<div class="number"><span class="timer" data-from="0" data-to="1703" data-speed="1200" data-refresh-interval="5">0</span>+</div>
 									<p>Mortgage Award Winnings</p>
-								</div> <!-- /.single-counter -->
-							</div> <!-- .col- -->
+								</div> 
+							</div> -->
 						</div> <!-- /.row -->
 					</div> <!-- /.container -->
 				</div> <!-- /.overlay -->
@@ -116,13 +117,13 @@
 
 			<!--
 			=====================================================
-				Our Blog 
+				Our News 
 			=====================================================
 			-->
-			<div class="our-blog center-text-blog section-spacing">
+			<div id="news" class="our-blog center-text-blog section-spacing">
 				<div class="container">
 					<div class="theme-title-one text-center">
-						<h2 class="title">Latest News &amp; Updates</h2>
+						<h2 class="title">News</h2>
 					</div> <!-- /.theme-title-one -->
 					<div class="latest-news-slider">
 						<div class="item">
@@ -132,11 +133,6 @@
 									<a href="#" class="date">25 May 2018</a>
 								</div>
 								<div class="text">
-									<ul class="post-info clearfix">
-										<li>By <a href="#">Consultpro</a></li>
-										<li><a href="#">11 Likes</a></li>
-										<li><a href="#">0 comment</a></li>
-									</ul>
 									<h6 class="title"><a href="blog-details.html">Within the construction industry as their overdraft</a></h6>
 									<p>Our approach is collaborative and adaptive. want clients to be immersed in the project and creative process. Through activities like </p>
 								</div> <!-- /.text -->
@@ -149,11 +145,6 @@
 									<a href="#" class="date">21 May 2018</a>
 								</div>
 								<div class="text">
-									<ul class="post-info clearfix">
-										<li>By <a href="#">Consultpro</a></li>
-										<li><a href="#">15 Likes</a></li>
-										<li><a href="#">05 comment</a></li>
-									</ul>
 									<h6 class="title"><a href="blog-details.html">Strategic and commercial approach with issues</a></h6>
 									<p>Our approach is collaborative and adaptive. want clients to be immersed in the project and creative process. Through activities like </p>
 								</div> <!-- /.text -->
@@ -166,17 +157,15 @@
 									<a href="#" class="date">15 May 2018</a>
 								</div>
 								<div class="text">
-									<ul class="post-info clearfix">
-										<li>By <a href="#">Consultpro</a></li>
-										<li><a href="#">09 Likes</a></li>
-										<li><a href="#">03 comment</a></li>
-									</ul>
 									<h6 class="title"><a href="blog-details.html">Seven weeks working ‘pro bono’ with a charity</a></h6>
 									<p>Our approach is collaborative and adaptive. want clients to be immersed in the project and creative process. Through activities like </p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-blog-meta -->
 						</div> <!-- /.item -->
 					</div> <!-- /.latest-news-slider -->
+					<div class="text-center clearfix" style="padding-top: 50px;">
+						<a href="/news" class="theme-button-one">Voir plus</a>
+					</div> <!-- /.view-all-service -->
 				</div> <!-- /.container -->
 			</div> <!-- /.our-blog -->
 
@@ -185,7 +174,7 @@
 				Latest Project
 			=====================================================
 			-->
-			<div class="latest-project bg-color section-spacing">
+			<div id="project" class="latest-project bg-color section-spacing">
 				<div class="container">
 					<div class="theme-title-one text-center">
 						<h2 class="title">Our Latest Projects</h2>
@@ -281,7 +270,7 @@
 						</div> <!-- /.col- -->
 					</div> <!-- /.row -->
 
-					<div class="view-all-project text-center clearfix"><a href="project-grid.html" class="theme-button-one">View All Project</a></div> <!-- /.view-all-project -->
+					<div class="view-all-project text-center clearfix"><a href="/nos-projets" class="theme-button-one">Voir plus</a></div> <!-- /.view-all-project -->
 				</div> <!-- /.container -->
 			</div> <!-- /.latest-project -->
 
@@ -290,10 +279,10 @@
 				Service Style Two
 			============================================== 
 			-->
-			<div class="service-style-two section-spacing">
+			<div id="event" class="service-style-two section-spacing">
 				<div class="container">
 					<div class="theme-title-one text-center">
-						<h2 class="title">The Industries We Serveice</h2>
+						<h2 class="title">Événements à venir</h2>
 					</div> <!-- /.theme-title-one -->
 					<div class="service-slider">
 						<div class="item">
@@ -305,12 +294,10 @@
 									</div> <!-- /.overlay -->
 								</div> <!-- /.img-box -->
 								<div class="text">
-									<i class="icon flaticon-bag"></i>
 									<div class="srvc-name">
 										<h5><a href="service-details.html">Business Consulting</a></h5>
 										<span>We are Consulting Company</span>
 									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-block -->
 						</div> <!-- /.item -->
@@ -323,12 +310,10 @@
 									</div> <!-- /.overlay -->
 								</div> <!-- /.img-box -->
 								<div class="text">
-									<i class="icon flaticon-chair"></i>
 									<div class="srvc-name">
 										<h5><a href="service-details.html">IT Consulting</a></h5>
 										<span>We are Consulting Company</span>
 									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-block -->
 						</div> <!-- /.item -->
@@ -341,12 +326,10 @@
 									</div> <!-- /.overlay -->
 								</div> <!-- /.img-box -->
 								<div class="text">
-									<i class="icon flaticon-law"></i>
 									<div class="srvc-name">
 										<h5><a href="service-details.html">Lawyers Consulting</a></h5>
 										<span>We are Consulting Company</span>
 									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-block -->
 						</div> <!-- /.item -->
@@ -359,12 +342,10 @@
 									</div> <!-- /.overlay -->
 								</div> <!-- /.img-box -->
 								<div class="text">
-									<i class="icon flaticon-pie-chart"></i>
 									<div class="srvc-name">
 										<h5><a href="service-details.html">Financial Consulting</a></h5>
 										<span>We are Consulting Company</span>
 									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-block -->
 						</div> <!-- /.item -->
@@ -377,12 +358,10 @@
 									</div> <!-- /.overlay -->
 								</div> <!-- /.img-box -->
 								<div class="text">
-									<i class="icon flaticon-chart2"></i>
 									<div class="srvc-name">
 										<h5><a href="service-details.html">Products Consulting</a></h5>
 										<span>We are Consulting Company</span>
 									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-block -->
 						</div> <!-- /.item -->
@@ -395,18 +374,16 @@
 									</div> <!-- /.overlay -->
 								</div> <!-- /.img-box -->
 								<div class="text">
-									<i class="icon flaticon-puzzle"></i>
 									<div class="srvc-name">
 										<h5><a href="service-details.html">Trades &amp; Stocks</a></h5>
 										<span>We are Consulting Company</span>
 									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-block -->
 						</div> <!-- /.item -->
 					</div> <!-- /.service-slider -->
 					<div class="view-all-service clearfix">
-						<a href="service-v1.html" class="theme-button-one">View All Services</a>
+						<a href="/evenements" class="theme-button-one">Voir plus</a>
 					</div> <!-- /.view-all-service -->
 				</div> <!-- /.container -->
 			</div> <!-- /.service-style-two -->

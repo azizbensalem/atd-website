@@ -22,7 +22,15 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-
+Route::get('/nos-projets', function () {
+    return view('projects.projetGrid');
+});
+Route::get('/news', function () {
+    return view('news.newsGrid');
+});
+Route::get('/evenements', function () {
+    return view('events.eventsGrid');
+});
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

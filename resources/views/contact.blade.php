@@ -5,6 +5,7 @@
 	<li ><a href="/">Accueil</a></li>
 	<li><a href="/about-us">À propos</a></li>
 	<li><a href="/news">News</a></li>
+	<li><a href="/nos-projets">Nos projets</a></li>
 	<li><a href="/evenements">Événements à venir</a></li>
 	<li><a href="/contact">Contact</a></li>
 	<li class="active"><a href="/register">Adhésion</a></li>
@@ -21,9 +22,7 @@
 					<div class="container">
 						<h2 class="title">Contact</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>.</li>
-							<li><a href="#">Pages</a></li>
+							<li><a href="/">Accueil</a></li>
 							<li>.</li>
 							<li>Contact</li>
 						</ul>
@@ -72,7 +71,7 @@
 							<div class="col-lg-4 col-sm-6 col-12"><input type="text" placeholder="Phone" name="phone"></div>
 							<div class="col-lg-12 col-sm-6 col-12"><input type="text" placeholder="Subject" name="sub"></div>
 							<div class="col-12"><textarea placeholder="Enter Your Word..." name="message"></textarea></div>
-							<div class="col-12"><button class="theme-button-one">Send</button></div>
+							<div class="col-12"><button class="theme-button-one">Envoyer</button></div>
 						</div>
 					</form>
 				</div> <!-- /.container -->

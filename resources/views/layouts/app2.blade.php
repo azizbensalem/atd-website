@@ -44,8 +44,8 @@
             <header class="theme-main-header theme-header-two">
 				<div class="top-header bg-color">
 					<div class="container clearfix">
-						<p class="float-left email-us">Email us at : <a href="mailto:info@negozuonsultancy.com">info@negozuonsultancy.com</a></p>
-						<p class="float-right call-us">Call us for any questions : <a href="tel:(088)-987-555-123">(088) 987 555 123</a></p>
+						<p class="float-left email-us">Envoyez-nous un email à : <a href="mailto:contact@atd.com">info@negozuonsultancy.com</a></p>
+						<p class="float-right call-us">Appelez-nous pour toute question : <a href="tel:77 000 000">77 000 000</a></p>
 					</div> <!-- /.container -->
 				</div> <!-- /.top-header -->
 
@@ -57,15 +57,15 @@
 						<ul class="our-address clearfix">
 							<li>
 								<i class="icon flaticon-map"></i>
-								<p>1010 Avenue of the Moon <br>New York, <span>NY 10018</span> </p>
+								<p>Avenue ----<br>Sfax, <span>Tunisie</span> </p>
 							</li>
 							<li>
 								<i class="icon flaticon-clock"></i>
-								<p>Mon - <span>Sat 8.00 - 18.00</span> <br> Sunday CLOSED</p>
+								<p>Lundi - <span>Samedi 8.00 - 18.00</span> <br>Dimanche FERMÉ</p>
 							</li>
 							<li>
 								<i class="icon flaticon-phone-call"></i>
-								<p><a href="#">212 714 0177</a> <br>Free call</p>
+								<p><a href="#">77 000 000</a> <br>Appelez-nous</p>
 							</li>
 						</ul>
 					</div>
@@ -162,7 +162,7 @@
 				<div class="bottom-footer">
 					<div class="container clearfix">
 						<p class="float-left">Copyright 2022 ATD – All Right Reserved</p>
-						<p class="float-right">Made by Creativegigs Themes</p>
+						<!-- <p class="float-right"></p> -->
 					</div>
 				</div> <!-- /.bottom-footer -->
 			</footer> <!-- /.theme-footer -->
