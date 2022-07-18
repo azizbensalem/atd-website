@@ -46,7 +46,7 @@
 								<img src="images/portfolio/1.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -57,7 +57,7 @@
 								<img src="images/portfolio/2.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -68,7 +68,7 @@
 								<img src="images/portfolio/3.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -79,7 +79,7 @@
 								<img src="images/portfolio/4.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -90,7 +90,7 @@
 								<img src="images/portfolio/5.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -101,7 +101,7 @@
 								<img src="images/portfolio/6.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -112,7 +112,7 @@
 								<img src="images/portfolio/7.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -123,7 +123,7 @@
 								<img src="images/portfolio/8.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -134,7 +134,7 @@
 								<img src="images/portfolio/9.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -145,7 +145,7 @@
 								<img src="images/portfolio/10.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -156,7 +156,7 @@
 								<img src="images/portfolio/11.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->
@@ -167,7 +167,7 @@
 								<img src="images/portfolio/12.jpg" alt="">
 								<div class="overlay">
 									<div>
-										<h6><a href="project-details.html">Thought Leadership</a></h6>
+										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
 										<span>Current Project</span>
 									</div>
 								</div> <!-- /.overlay -->

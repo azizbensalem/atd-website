@@ -107,7 +107,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-3 col-sm-6 about-widget">
-								<div class="logo"><a href="index.html"><img src="{{ asset('images/logo/atd.png') }}" alt="atd-logo"></a></div>
+								<div class="logo"><a href="index.html"><img src="{{ asset('images/logo/atd-footer.png') }}" alt="atd-logo"></a></div>
 								<p>Donald M. Palmer 2595 Pearlman Avenue Sudbury, <span>MA 01776</span> </p>
 								<ul class="social-icon">
 									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -118,15 +118,15 @@
 							</div> <!-- /.about-widget -->
 
 							<div class="col-lg-2 col-sm-6 list-widget">
-								<h6 class="title">Extra links</h6>
+								<h6 class="title">Lien externe</h6>
 								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="service-v1.html">Services</a></li>
-									<li><a href="#">Cases</a></li>
-									<li><a href="blog-classic.html">News</a></li>
-									<li><a href="project-grid.html">Portfolio</a></li>
-									<li><a href="contact.html">Contacts</a></li>
+									<li><a href="/">Accueil</a></li>
+									<li><a href="/about-us">À propos</a></li>
+									<li><a href="/news">News</a></li>
+									<li><a href="/nos-projets">Nos projets</a></li>
+									<li><a href="/evenements">Événements à venir</a></li>
+									<li><a href="/contact">Contact</a></li>
+									<li><a href="/register">Adhésion</a></li>
 								</ul>
 							</div> <!-- /.list-widget -->
 

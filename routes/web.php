@@ -25,6 +25,9 @@ Route::get('/contact', function () {
 Route::get('/nos-projets', function () {
     return view('projects.projetGrid');
 });
+Route::get('/nos-projets/detail', function () {
+    return view('projects.projetDetail');
+});
 Route::get('/news', function () {
     return view('news.newsGrid');
 });

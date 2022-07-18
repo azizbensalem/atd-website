@@ -7,8 +7,8 @@
 	<li><a href="/news">News</a></li>
 	<li><a href="/nos-projets">Nos projets</a></li>
 	<li><a href="/evenements">Événements à venir</a></li>
-	<li><a href="/contact">Contact</a></li>
-	<li class="active"><a href="/register">Adhésion</a></li>
+	<li class="active"><a href="/contact">Contact</a></li>
+	<li><a href="/register">Adhésion</a></li>
 </ul>
 @endsection
 @section('content')
