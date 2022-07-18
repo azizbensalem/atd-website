@@ -384,7 +384,7 @@ body .theme-button-one:hover {
     color: rgba(255, 255, 255, 0.6);
 }
 .theme-main-header .middle-header {
-    background: #181818;
+    background: #fff;
     padding: 38px 0;
 }
 .theme-main-header .middle-header .logo {
@@ -406,12 +406,12 @@ body .theme-button-one:hover {
 .theme-main-header .middle-header .our-address li p {
     font-size: 13px;
     line-height: 20px;
-    color: #fff;
+    color: #181818;
 }
 .theme-main-header .middle-header .our-address li p a {
     font-size: 17px;
     font-weight: 600;
-    color: #fff;
+    color: #181818;
 }
 .theme-main-header .middle-header .our-address li .icon {
     position: absolute;
