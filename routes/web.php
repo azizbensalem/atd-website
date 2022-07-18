@@ -31,6 +31,9 @@ Route::get('/nos-projets/detail', function () {
 Route::get('/news', function () {
     return view('news.newsGrid');
 });
+Route::get('/news/detail', function () {
+    return view('news.newsDetail');
+});
 Route::get('/evenements', function () {
     return view('events.eventsGrid');
 });

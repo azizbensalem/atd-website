@@ -97,24 +97,41 @@
                 @yield('content')
             </div>
 
-            <!--
+<!--
 			=====================================================
 				Footer
 			=====================================================
 			-->
-			<footer class="theme-footer-two">
+			<footer class="theme-footer-one">
+				<div class="container">
+					<div class="top-footer">
+						<div class="logo"><a href="index.html"><img src="{{asset('images/logo/atd-footer.png')}}" alt="logo"></a></div>
+						<ul class="clearfix">
+							<li>
+								<i class="icon flaticon-smartphone"></i>
+								<h6>Appelez-nous :</h6>
+								<a href="#">77000000</a>
+							</li>
+							<li>
+								<i class="icon flaticon-message"></i>
+								<h6>Envoyez-nous un email à :</h6>
+								<a href="#">contact@atd.com</a>
+							</li>
+						</ul>
+					</div> <!-- /.top-footer -->
+				</div> <!-- /.container -->
+
 				<div class="main-footer-widget">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-3 col-sm-6 about-widget">
-								<div class="logo"><a href="index.html"><img src="{{ asset('images/logo/atd-footer.png') }}" alt="atd-logo"></a></div>
+							<div class="col-lg-3 col-sm-6">
+								<h6 class="title">Adresse</h6>
 								<p>Donald M. Palmer 2595 Pearlman Avenue Sudbury, <span>MA 01776</span> </p>
-								<ul class="social-icon">
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-								</ul>
+							</div> <!-- /.about-widget -->
+
+							<div class="col-lg-4 col-sm-6">
+								<h6 class="title">À propos</h6>
+								<p>L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
 							</div> <!-- /.about-widget -->
 
 							<div class="col-lg-2 col-sm-6 list-widget">
@@ -130,30 +147,19 @@
 								</ul>
 							</div> <!-- /.list-widget -->
 
-							<div class="col-lg-4 col-sm-6 twitter-widget">
-								<h6 class="title">Latest Tweets</h6>
-								<ul>
-									<li class="clearfix">
-										<div class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-										<p>Starting a new website? Don't this Ultimate <a href="#">#WordPress and #SEO</a> Setup Guide… <a href="#">https://t.co/C8OO98cA5e</a></p>
-										<div class="date"><i class="icon flaticon-clock"></i> 20 hours ago</div>
-									</li>
-									<li class="clearfix">
-										<div class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-										<p>When you have terrible metrics on your #website, expect to have lesser <a href="#">#conversion rates</a></p>
-										<div class="date"><i class="icon flaticon-clock"></i> 20 hours ago</div>
-									</li>
-								</ul>
-							</div> <!-- /.twitter-widget -->
-
-							<div class="col-lg-3 col-sm-6 subscribe-widget">
-								<h6 class="title">Subscribe Us</h6>
+							<div class="col-lg-3 col-md-6 col-12 subscribe-widget">
+								<h6 class="title">Abonnez-nous</h6>
 								<form action="#">
 									<input type="email" placeholder="Email Address">
 									<button><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 								</form>
-								<img src="images/home/map.png" alt="">
-								
+								<p>Inscrivez-vous à notre newsletter pour obtenir les dernières mises à jour et nouvelles.</p>
+								<ul class="social-icon">
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+								</ul>
 							</div> <!-- /.subscribe-widget -->
 						</div> <!-- /.row -->
 					</div> <!-- /.container -->

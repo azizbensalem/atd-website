@@ -50,7 +50,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Within the construction industry as their overdraft</a></h6>
+											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -61,7 +61,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Strategic and commercial approach with issues</a></h6>
+											<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -72,7 +72,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Within the construction industry as their overdraft</a></h6>
+											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -83,7 +83,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Nothin’s gonna turn us back now with issues</a></h6>
+											<h6 class="title"><a href="/news/detail">Nothin’s gonna turn us back now with issues</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -94,7 +94,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Within the construction industry as their overdraft</a></h6>
+											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -105,7 +105,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Within the construction industry as their overdraft</a></h6>
+											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -116,7 +116,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Within the construction industry as their overdraft</a></h6>
+											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -127,7 +127,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Strategic and commercial approach with issues</a></h6>
+											<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -138,7 +138,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Within the construction industry as their overdraft</a></h6>
+											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -149,7 +149,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">The first mate and his Skipper too their overdraft</a></h6>
+											<h6 class="title"><a href="/news/detail">The first mate and his Skipper too their overdraft</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -160,7 +160,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Nothin’s gonna turn us back now with issues</a></h6>
+											<h6 class="title"><a href="/news/detail">Nothin’s gonna turn us back now with issues</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -171,7 +171,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Strategic and commercial approach with issues</a></h6>
+											<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -182,7 +182,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Within the construction industry as their overdraft</a></h6>
+											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
@@ -193,7 +193,7 @@
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="blog-details.html">Strategic and commercial approach with issues</a></h6>
+											<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>

@@ -133,7 +133,7 @@
 									<a href="#" class="date">25 May 2018</a>
 								</div>
 								<div class="text">
-									<h6 class="title"><a href="blog-details.html">Within the construction industry as their overdraft</a></h6>
+									<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
 									<p>Our approach is collaborative and adaptive. want clients to be immersed in the project and creative process. Through activities like </p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-blog-meta -->
@@ -145,7 +145,7 @@
 									<a href="#" class="date">21 May 2018</a>
 								</div>
 								<div class="text">
-									<h6 class="title"><a href="blog-details.html">Strategic and commercial approach with issues</a></h6>
+									<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
 									<p>Our approach is collaborative and adaptive. want clients to be immersed in the project and creative process. Through activities like </p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-blog-meta -->
@@ -157,7 +157,7 @@
 									<a href="#" class="date">15 May 2018</a>
 								</div>
 								<div class="text">
-									<h6 class="title"><a href="blog-details.html">Seven weeks working ‘pro bono’ with a charity</a></h6>
+									<h6 class="title"><a href="/news/detail">Seven weeks working ‘pro bono’ with a charity</a></h6>
 									<p>Our approach is collaborative and adaptive. want clients to be immersed in the project and creative process. Through activities like </p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-blog-meta -->
