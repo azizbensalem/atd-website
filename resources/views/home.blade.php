@@ -26,11 +26,12 @@
 
 							<div class="consultation-form">
 								<form action="#" class="wow fadeInRight animated" data-wow-delay="0.3s">
-									<h3>Free Consultation</h3>
-									<input type="text" placeholder="First Name">
-									<input type="text" placeholder="Phone">
+									<h3>Devenir membre</h3>
+									<input type="text" placeholder="Nom">
 									<input type="email" placeholder="Email">
-									<button class="theme-button-one">Send Request</button>
+									<input type="password" placeholder="Mot de passe">
+									<input type="password" placeholder="Confirmer le mot de passe">
+									<button class="theme-button-one">S'inscrire</button>
 								</form>
 							</div> <!-- /.consultation-form -->
 						</div> <!-- /.container -->

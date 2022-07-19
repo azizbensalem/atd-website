@@ -43,13 +43,13 @@
 			-->
             <header class="theme-main-header theme-header-one">
 				<div class="top-header">
-					<div class="container clearfix">
-						<!-- <p class="float-left email-us">Envoyez-nous un email à : <a href="mailto:contact@atd.com">info@negozuonsultancy.com</a></p>
-						<p class="float-right call-us">Appelez-nous pour toute question : <a href="tel:77 000 000">77 000 000</a></p> -->
-						<ul class="clearfix">
-							<li class="float-right"><a href="/register">&nbsp;Devenir membre</a></li>
-							<li class="float-right"><a href="/login">Se connecter |</a></li>
-						</ul>
+					<div class="container">
+						<nav class="menuTop">
+							<ul>
+								<li class="float-right"><a href="/register" class="textStyle">Devenir membre</a></li>
+								<li class="float-right"><a href="/login" class="textStyle">Se connecter</a></li>
+							</ul>
+						</nav>
 					</div> <!-- /.container -->
 				</div> <!-- /.top-header -->
 
