@@ -40,19 +40,9 @@
 				<div data-src="images/home/slide-4.jpg">
 					<div class="camera_caption">
 						<div class="container">
-							<h1 class="wow fadeInUp animated">We are <br>the Consulting</h1>
+						<h1 class="wow fadeInUp animated"><span>We are Negozu We are Future</span> Coworking &amp; Community</h1>
 							<p class="wow fadeInUp animated" data-wow-delay="0.2s">Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate</p>
 							<a href="about.html" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.278s">Read more</a>
-
-							<div class="consultation-form">
-								<form action="#" class="wow fadeInRight animated" data-wow-delay="0.3s">
-									<h3>Free Consultation</h3>
-									<input type="text" placeholder="First Name">
-									<input type="text" placeholder="Phone">
-									<input type="email" placeholder="Email">
-									<button class="theme-button-one">Send Request</button>
-								</form>
-							</div> <!-- /.consultation-form -->
 						</div> <!-- /.container -->
 					</div> <!-- /.camera_caption -->
 				</div>
