@@ -41,52 +41,29 @@
 				Theme Header
 			============================================== 
 			-->
-            <header class="theme-main-header theme-header-two">
-				<div class="top-header bg-color">
+            <header class="theme-main-header theme-header-one">
+				<div class="top-header">
 					<div class="container clearfix">
-						<p class="float-left email-us">Envoyez-nous un email à : <a href="mailto:contact@atd.com">info@negozuonsultancy.com</a></p>
-						<p class="float-right call-us">Appelez-nous pour toute question : <a href="tel:77 000 000">77 000 000</a></p>
+						<!-- <p class="float-left email-us">Envoyez-nous un email à : <a href="mailto:contact@atd.com">info@negozuonsultancy.com</a></p>
+						<p class="float-right call-us">Appelez-nous pour toute question : <a href="tel:77 000 000">77 000 000</a></p> -->
+						<ul class="clearfix">
+							<li class="float-right"><a href="/register">&nbsp;Devenir membre</a></li>
+							<li class="float-right"><a href="/login">Se connecter |</a></li>
+						</ul>
 					</div> <!-- /.container -->
 				</div> <!-- /.top-header -->
-
-				<div class="middle-header">
-					<div class="container clearfix">
-						<!-- ================= Logo ==================== -->
-						<div class="logo"><a href="index.html"><img src="{{ asset('images/logo/atd.png') }}" alt="atd-logo"></a></div>
-
-						<ul class="our-address clearfix">
-							<li>
-								<i class="icon flaticon-map"></i>
-								<p>Avenue ----<br>Sfax, <span>Tunisie</span> </p>
-							</li>
-							<li>
-								<i class="icon flaticon-clock"></i>
-								<p>Lundi - <span>Samedi 8.00 - 18.00</span> <br>Dimanche FERMÉ</p>
-							</li>
-							<li>
-								<i class="icon flaticon-phone-call"></i>
-								<p><a href="#">77 000 000</a> <br>Appelez-nous</p>
-							</li>
-						</ul>
-					</div>
-				</div> <!-- /.middle-header -->
 
 				<div class="theme-menu-wrapper">
 					<div class="container">
 						<div class="inner-wrapper clearfix">
+							<!-- ================= Logo ==================== -->
+							<div class="logo"><a href="index.html"><img src="images/logo/atd.png" alt="logo"></a></div>
 							<!-- ============== Menu Warpper ================ -->
-					   		<div class="menu-wrapper float-left">
+					   		<div class="menu-wrapper float-right">
 					   			<nav id="mega-menu-holder" class="clearfix">
-                                   @yield('menu')
+								   @yield('menu')
 								</nav> <!-- /#mega-menu-holder -->
 					   		</div> <!-- /.menu-wrapper -->
-
-					   		<ul class="social-icon float-right">
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-							</ul>
 						</div> <!-- /.inner-wrapper -->
 					</div> <!-- /.container -->
 				</div> <!-- /.theme-menu-wrapper -->
