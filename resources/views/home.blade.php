@@ -3,11 +3,11 @@
 <ul class="clearfix">
 	<li class="active"><a href="/">Accueil</a></li>
 	<li><a href="#about-us">À propos</a></li>
+	<li><a href="/">Rejoindre ATD</a></li>
 	<li><a href="#news">News</a></li>
 	<li><a href="#project">Nos projets</a></li>
 	<li><a href="#event">Événements à venir</a></li>
 	<li><a href="/contact">Contact</a></li>
-	<li><a href="/register">Adhésion</a></li>
 </ul>
 @endsection
 @section('content')

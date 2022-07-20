@@ -46,7 +46,7 @@
 					<div class="container">
 						<nav class="menuTop">
 							<ul>
-								<li class="float-right"><a href="/register" class="textStyle">Devenir membre</a></li>
+								<li class="float-right"><a href="/register" class="textStyle">Adhérer à l'ATD</a></li>
 								<li class="float-right"><a href="/login" class="textStyle">Se connecter</a></li>
 							</ul>
 						</nav>
@@ -116,11 +116,11 @@
 								<ul>
 									<li><a href="/">Accueil</a></li>
 									<li><a href="/about-us">À propos</a></li>
+									<li><a href="/">Rejoindre ATD</a></li>
 									<li><a href="/news">News</a></li>
 									<li><a href="/nos-projets">Nos projets</a></li>
 									<li><a href="/evenements">Événements à venir</a></li>
 									<li><a href="/contact">Contact</a></li>
-									<li><a href="/register">Adhésion</a></li>
 								</ul>
 							</div> <!-- /.list-widget -->
 
@@ -144,7 +144,7 @@
 
 				<div class="bottom-footer">
 					<div class="container clearfix">
-						<p class="float-left">Copyright 2022 ATD – All Right Reserved</p>
+						<p class="float-left">Copyright 2022 ATD</p>
 						<!-- <p class="float-right"></p> -->
 					</div>
 				</div> <!-- /.bottom-footer -->
