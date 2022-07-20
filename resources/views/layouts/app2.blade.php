@@ -57,7 +57,7 @@
 					<div class="container">
 						<div class="inner-wrapper clearfix">
 							<!-- ================= Logo ==================== -->
-							<div class="logo"><a href="index.html"><img src="images/logo/atd.png" alt="logo"></a></div>
+							<div class="logo"><a href="/"><img src="/images/logo/atd.png" alt="logo"></a></div>
 							<!-- ============== Menu Warpper ================ -->
 					   		<div class="menu-wrapper float-right">
 					   			<nav id="mega-menu-holder" class="clearfix">
