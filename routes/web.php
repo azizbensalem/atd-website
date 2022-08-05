@@ -13,9 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/', function () {
     return view('home');
 });
@@ -37,6 +34,15 @@ Route::get('/news/detail', function () {
 Route::get('/evenements', function () {
     return view('events.eventsGrid');
 });
+
+Route::get('/admin/home', function () {
+    return view('admin.dashboard.dashboard');
+});
+
+Route::get('/admin/news', function () {
+    return view('admin.news.news');
+});
+
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
