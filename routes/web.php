@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\NewsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('home');
 });
@@ -25,9 +24,6 @@ Route::get('/nos-projets', function () {
 Route::get('/nos-projets/detail', function () {
     return view('projects.projetDetail');
 });
-Route::get('/news', function () {
-    return view('news.newsGrid');
-});
 Route::get('/news/detail', function () {
     return view('news.newsDetail');
 });
@@ -39,10 +35,12 @@ Route::get('/admin/home', function () {
     return view('admin.dashboard.dashboard');
 });
 
-Route::get('/admin/news', function () {
-    return view('admin.news.news');
+Route::get('/admin/news', [NewsController::class, 'adminIndex']);
+Route::post('/admin/news/store', [NewsController::class, 'store']);
+Route::get('/admin/news/create', function () {
+    return view('admin.news.create');
 });
-
+Route::get('/news', [NewsController::class, 'index']);
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

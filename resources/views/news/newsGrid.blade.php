@@ -17,7 +17,7 @@
 				Theme Inner Banner
 			============================================== 
 			-->
-			<div class="theme-inner-banner section-spacing" style="background: url(images/home/inner-banner-4.jpg) no-repeat center; background-size:cover;">
+			<div class="theme-inner-banner section-spacing" style="background: url(/images/home/inner-banner-4.jpg) no-repeat center; background-size:cover;">
 				<div class="overlay">
 					<div class="container">
 						<h2 class="title">News</h2>
@@ -42,163 +42,21 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-12">
-							<div class="row">
+						<div class="row">
+						@foreach ($news as $new)
 								<div class="col-md-6">
 									<div class="single-blog-meta">
 										<div class="img-box">
-											<img src="images/blog/15.jpg" alt="">
+											<img src="{{ asset($new->image) }}" alt="">
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
+											<h6 class="title"><a href="/news/detail">{{ $new->title }}</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/16.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/17.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/18.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Nothin’s gonna turn us back now with issues</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/19.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/20.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/21.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/22.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/23.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/24.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">The first mate and his Skipper too their overdraft</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/25.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Nothin’s gonna turn us back now with issues</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/26.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/27.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-								<div class="col-md-6">
-									<div class="single-blog-meta">
-										<div class="img-box">
-											<img src="images/blog/28.jpg" alt="">
-											<a href="#" class="date">25 May 2018</a>
-										</div>
-										<div class="text">
-											<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
-										</div> <!-- /.text -->
-									</div> <!-- /.single-blog-meta -->
-								</div>
-							</div>
-
+						@endforeach
+						</div>
 							<div class="theme-pagination">
 								<ul class="clearfix">
 									<li class="active"><a href="#">1</a></li>
