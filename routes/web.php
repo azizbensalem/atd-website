@@ -37,6 +37,7 @@ Route::get('/admin/home', function () {
 
 Route::get('/admin/news', [NewsController::class, 'adminIndex']);
 Route::post('/admin/news/store', [NewsController::class, 'store']);
+Route::delete('/admin/news/delete/{news}', [NewsController::class, 'destroy']);
 Route::get('/admin/news/create', function () {
     return view('admin.news.create');
 });

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\News;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class NewsController extends Controller
 {
@@ -105,7 +106,9 @@ class NewsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy(News $news)
-    {
-        //
+    {   
+        Storage::delete($news->image);
+        $news->delete();
+        return redirect("/admin/news");
     }
 }

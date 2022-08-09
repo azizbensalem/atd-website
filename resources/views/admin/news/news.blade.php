@@ -41,9 +41,13 @@
                           <td>{{$new->title}}</td>
                           <td>12 May 2017</td>
                           <td>
-                            <label class="badge badge-info">Afficher</label>
-                            <label class="badge badge-success">Modifier</label>
-                            <label class="badge badge-danger">Supprimer</label>
+                            <a class="badge badge-info">Afficher</a>
+                            <a class="badge badge-success">Modifier</a>
+                            <form class="badge badge-danger" method="POST" action="/admin/news/delete/{{$new->id}}" >
+                              @csrf
+                              @method("DELETE")
+                              <input type="submit" value="Supprimer">
+                            </form>
                           </td>
                         </tr>
                         @endforeach
