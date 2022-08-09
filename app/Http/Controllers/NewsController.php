@@ -71,9 +71,20 @@ class NewsController extends Controller
      * @param  \App\Models\News  $news
      * @return \Illuminate\Http\Response
      */
+    public function showNews(News $news)
+    {
+        return view("news.newsDetail", compact("news"));
+    }
+
+        /**
+     * Display the specified resource.
+     *
+     * @param  \App\Models\News  $news
+     * @return \Illuminate\Http\Response
+     */
     public function show(News $news)
     {
-        //
+        return view("admin.news.show", compact("news"));
     }
 
     /**
@@ -84,7 +95,7 @@ class NewsController extends Controller
      */
     public function edit(News $news)
     {
-        //
+        return view("admin.news.edit", compact("news"));
     }
 
     /**
@@ -96,7 +107,29 @@ class NewsController extends Controller
      */
     public function update(Request $request, News $news)
     {
-        //
+        $rules = [
+            'title' => 'bail|required|string|max:255',
+            "description" => 'bail|required',
+        ];
+
+        if ($request->has("image")) {
+            $rules["image"] = 'bail|required|image|max:1024';
+        }
+
+        $this->validate($request, $rules);
+
+        if ($request->has("image")) {
+            Storage::delete($news->image);
+            $chemin_image = $request->image->store("public");
+        }
+
+        $news->update([
+            "title" => $request->title,
+            "description" => $request->description,
+            "image" => isset($chemin_image) ? $chemin_image : $news->image,
+        ]);
+
+        return redirect('/admin/news/show/'.$news->id);
     }
 
     /**

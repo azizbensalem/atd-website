@@ -47,11 +47,11 @@
 								<div class="col-md-6">
 									<div class="single-blog-meta">
 										<div class="img-box">
-											<img src="{{ asset($new->image) }}" alt="">
+											<img src="{{ asset($new->image) }}" style="max-height: 554px!important;" alt="{{ $new->title }}">
 											<a href="#" class="date">25 May 2018</a>
 										</div>
 										<div class="text">
-											<h6 class="title"><a href="/news/detail">{{ $new->title }}</a></h6>
+											<h6 class="title"><a href="/news/detail/{{$new->id}}">{{ $new->title }}</a></h6>
 										</div> <!-- /.text -->
 									</div> <!-- /.single-blog-meta -->
 								</div>
