@@ -51,7 +51,7 @@ class NewsController extends Controller
         $this->validate($request, [
         'title' => 'bail|required|string|max:255',
         "description" => 'bail|required',
-        "image" => 'bail|required|image|max:1024',
+        "image" => 'required|mimes:jpg,png,jpeg,gif,svg|max:2048',
         ]);
 
         $chemin_image = $request->image->store("public");
@@ -76,7 +76,7 @@ class NewsController extends Controller
         return view("news.newsDetail", compact("news"));
     }
 
-        /**
+    /**
      * Display the specified resource.
      *
      * @param  \App\Models\News  $news

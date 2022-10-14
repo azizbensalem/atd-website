@@ -3,12 +3,12 @@
 @section('menu')
 <ul class="clearfix">
 <li ><a href="/">Accueil</a></li>
-	<li><a href="/#about-us">À propos</a></li>
+	<li><a href="/a-propos">À propos</a></li>
+	<li><a href="/rejoindre_atd">Rejoindre ATD</a></li>
 	<li class="active"><a href="/news">News</a></li>
     <li><a href="/nos-projets">Nos projets</a></li>
 	<li><a href="/evenements">Événements à venir</a></li>
 	<li><a href="/contact">Contact</a></li>
-	<li><a href="/register">Adhésion</a></li>
 </ul>
 @endsection
 @section('content')
@@ -17,7 +17,7 @@
 				Theme Inner Banner
 			============================================== 
 			-->
-			<div class="theme-inner-banner section-spacing" style="background: url(/images/home/inner-banner-4.jpg) no-repeat center; background-size:cover;">
+			<div class="theme-inner-banner section-spacing" style="background: url(/images/home/news.jpg) no-repeat center; background-size:cover;">
 				<div class="overlay">
 					<div class="container">
 						<h2 class="title">News</h2>
@@ -48,7 +48,7 @@
 									<div class="single-blog-meta">
 										<div class="img-box">
 											<img src="{{ asset($new->image) }}" style="max-height: 554px!important;" alt="{{ $new->title }}">
-											<a href="#" class="date">25 May 2018</a>
+											<a href="#" class="date">{{date_format($new->created_at, "d M Y")}}</a>
 										</div>
 										<div class="text">
 											<h6 class="title"><a href="/news/detail/{{$new->id}}">{{ $new->title }}</a></h6>
@@ -57,14 +57,14 @@
 								</div>
 						@endforeach
 						</div>
-							<div class="theme-pagination">
+							<!-- <div class="theme-pagination">
 								<ul class="clearfix">
 									<li class="active"><a href="#">1</a></li>
 									<li><a href="#">2</a></li>
 									<li><a href="#">3</a></li>
 									<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 								</ul>
-							</div>
+							</div> -->
 						</div>
 
 

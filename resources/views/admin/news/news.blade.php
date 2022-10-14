@@ -8,10 +8,28 @@
                 <span class="menu-title">Dashboard</span>
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/users">
+                <i class="icon-grid menu-icon"></i>
+                <span class="menu-title">Membres</span>
+            </a>
+        </li>
         <li class="nav-item active">
             <a class="nav-link" href="/admin/news">
                 <i class="icon-grid menu-icon"></i>
                 <span class="menu-title">News</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/event">
+                <i class="icon-grid menu-icon"></i>
+                <span class="menu-title">Événements à venir</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/projects">
+                <i class="icon-grid menu-icon"></i>
+                <span class="menu-title">Les projets</span>
             </a>
         </li>
     </ul>
@@ -39,7 +57,7 @@
                       @foreach ($news as $new)
                         <tr>
                           <td>{{$new->title}}</td>
-                          <td>12 May 2017</td>
+                          <td>{{date_format($new->created_at, "d M Y")}}</td>
                           <td>
                             <a href="/admin/news/show/{{$new->id}}" class="badge badge-info">Afficher</a>
                             <a href="/admin/news/edit/{{$new->id}}" class="badge badge-success">Modifier</a>

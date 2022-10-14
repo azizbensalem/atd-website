@@ -16,7 +16,12 @@ class News extends Model
      */
     protected $table = 'news';
 
-    protected $fillable = [ "title", "description", "image" ];
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [ 'title', 'description', 'image' ];
 
     /**
      * Indicates if the model's ID is auto-incrementing.
@@ -26,16 +31,9 @@ class News extends Model
     public $incrementing = true;
 
     /**
-     * The data type of the auto-incrementing ID.
-     *
-     * @var string
-     */
-    protected $keyType = 'string';
-
-    /**
      * Indicates if the model should be timestamped.
      *
      * @var bool
      */
-    public $timestamps = false;
+    public $timestamps = true;
 }

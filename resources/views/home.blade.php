@@ -2,8 +2,8 @@
 @section('menu')
 <ul class="clearfix">
 	<li class="active"><a href="/">Accueil</a></li>
-	<li><a href="#about-us">À propos</a></li>
-	<li><a href="/">Rejoindre ATD</a></li>
+	<li><a href="/a-propos">À propos</a></li>
+	<li><a href="/rejoindre_atd">Rejoindre ATD</a></li>
 	<li><a href="#news">News</a></li>
 	<li><a href="#project">Nos projets</a></li>
 	<li><a href="#event">Événements à venir</a></li>
@@ -17,31 +17,20 @@
 			============================================== 
 			-->
 			<div id="theme-main-banner" class="banner-two section-spacing">
-				<div data-src="images/home/slide-3.jpg">
+			<div data-src="images/home/accueil.jpg">
 					<div class="camera_caption">
 						<div class="container">
-							<h1 class="wow fadeInUp animated">First-class <br>business consultant</h1>
-							<p class="wow fadeInUp animated" data-wow-delay="0.2s">Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate</p>
+						<h1 class="wow fadeInUp animated">Alliance tunisienne des designers</h1>
+							<p class="wow fadeInUp animated" data-wow-delay="0.2s">L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
 							<a href="about.html" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.278s">Read more</a>
-
-							<div class="consultation-form">
-								<form action="#" class="wow fadeInRight animated" data-wow-delay="0.3s">
-									<h3>Devenir membre</h3>
-									<input type="text" placeholder="Nom">
-									<input type="email" placeholder="Email">
-									<input type="password" placeholder="Mot de passe">
-									<input type="password" placeholder="Confirmer le mot de passe">
-									<button class="theme-button-one">S'inscrire</button>
-								</form>
-							</div> <!-- /.consultation-form -->
 						</div> <!-- /.container -->
 					</div> <!-- /.camera_caption -->
 				</div>
-				<div data-src="images/home/slide-4.jpg">
+				<div data-src="images/home/accueil.jpg">
 					<div class="camera_caption">
 						<div class="container">
-						<h1 class="wow fadeInUp animated"><span>We are Negozu We are Future</span> Coworking &amp; Community</h1>
-							<p class="wow fadeInUp animated" data-wow-delay="0.2s">Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate</p>
+						<h1 class="wow fadeInUp animated">Alliance tunisienne des designers</h1>
+							<p class="wow fadeInUp animated" data-wow-delay="0.2s">L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
 							<a href="about.html" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.278s">Read more</a>
 						</div> <!-- /.container -->
 					</div> <!-- /.camera_caption -->
@@ -57,15 +46,18 @@
 			<div id="about-us" class="about-compnay section-spacing">
 				<div class="container">
 					<div class="theme-title-one text-center">
-						<h2 class="title">Une association culturelle</h2>
+						<h2 class="title">À propos</h2>
 					</div> 
 					<div class="row">
 						<div class="col-lg-12 col-12 wow fadeInLeft animated">
 							<div class="text-wrapper">
-								<p>L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
-								<p> L’ATD est un organisme qui se veut représentatif de la profession qui vise à mettre en œuvre des actions design utiles pour le développement local et ouvertes à l’international.</p>
-								<!-- <a href="/about-us" class="theme-button-one">Voir plus</a> -->
-							</div>
+								<h3 class="main-title">Notre vision</h3><br>
+								<p>Le design se préoccupe d&#39;humaniser le monde et de changer la qualité de vie de
+								l’Homme, et c’est justement la principale devise de l’ATD que celle-ci tend à
+								affirmer, à appliquer et à faire profiter à ses différents adhérents, étudiants
+								soient-ils, enseignants ou professionnels...</p>
+							</div><br>
+							<a href="/a-propos" class="theme-button-one">Voir plus</a>
 						</div>
 					</div>
 				</div> 
@@ -77,7 +69,7 @@
 			=====================================================
 			-->
 			<div id="counter" class="theme-counter-section section-spacing">
-				<div class="overlay">
+				<div class="overlay" style="padding: 50px;">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 col-6">
@@ -117,42 +109,21 @@
 						<h2 class="title">News</h2>
 					</div> <!-- /.theme-title-one -->
 					<div class="latest-news-slider">
-						<div class="item">
-							<div class="single-blog-meta">
-								<div class="img-box">
-									<img src="{{ asset('images/blog/1.jpg') }}" alt="">
-									<a href="#" class="date">25 May 2018</a>
-								</div>
-								<div class="text">
-									<h6 class="title"><a href="/news/detail">Within the construction industry as their overdraft</a></h6>
-									<p>Our approach is collaborative and adaptive. want clients to be immersed in the project and creative process. Through activities like </p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-blog-meta -->
-						</div> <!-- /.item -->
-						<div class="item">
-							<div class="single-blog-meta">
-								<div class="img-box">
-									<img src="{{ asset('images/blog/2.jpg') }}" alt="">
-									<a href="#" class="date">21 May 2018</a>
-								</div>
-								<div class="text">
-									<h6 class="title"><a href="/news/detail">Strategic and commercial approach with issues</a></h6>
-									<p>Our approach is collaborative and adaptive. want clients to be immersed in the project and creative process. Through activities like </p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-blog-meta -->
-						</div> <!-- /.item -->
-						<div class="item">
-							<div class="single-blog-meta">
-								<div class="img-box">
-									<img src="{{ asset('images/blog/3.jpg') }}" alt="">
-									<a href="#" class="date">15 May 2018</a>
-								</div>
-								<div class="text">
-									<h6 class="title"><a href="/news/detail">Seven weeks working ‘pro bono’ with a charity</a></h6>
-									<p>Our approach is collaborative and adaptive. want clients to be immersed in the project and creative process. Through activities like </p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-blog-meta -->
-						</div> <!-- /.item -->
+					@foreach ($news as $new)
+						@continue($loop->iteration == 0)
+							<div class="item">
+								<div class="single-blog-meta">
+									<div class="img-box">
+										<img src="{{ asset($new->image) }}" alt="{{$new->title}}">
+										<a href="#" class="date">{{date_format($new->created_at, "d M Y")}}</a>
+									</div>
+									<div class="text">
+										<h6 class="title"><a href="/news/detail/{{$new->id}}">{{$new->title}}</a></h6>
+									</div> <!-- /.text -->
+								</div> <!-- /.single-blog-meta -->
+							</div> <!-- /.item -->
+						@break($loop->iteration == 6)
+					@endforeach
 					</div> <!-- /.latest-news-slider -->
 					<div class="text-center clearfix" style="padding-top: 50px;">
 						<a href="/news" class="theme-button-one">Voir plus</a>
@@ -171,94 +142,20 @@
 						<h2 class="title">Nos derniers projets</h2>
 					</div> <!-- /.theme-title-one -->
 					<div class="row">
+					@foreach ($projects as $project)
+						@continue($loop->iteration == 0)
 						<div class="col-lg-3 col-sm-6 col-12">
 							<div class="single-block">
-								<img src="images/portfolio/1.jpg" alt="">
+								<img src="{{ asset($project->image) }}" alt="{{$project->title}}">
 								<div class="overlay">
 									<div>
-										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
-										<span>Current Project</span>
+										<h6><a href="/nos-projets/detail/{{$project->id}}">{{$project->title}}</a></h6>
 									</div>
 								</div> <!-- /.overlay -->
 							</div> <!-- /.single-block -->
 						</div> <!-- /.col- -->
-						<div class="col-lg-3 col-sm-6 col-12">
-							<div class="single-block">
-								<img src="images/portfolio/2.jpg" alt="">
-								<div class="overlay">
-									<div>
-										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
-										<span>Current Project</span>
-									</div>
-								</div> <!-- /.overlay -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.col- -->
-						<div class="col-lg-3 col-sm-6 col-12">
-							<div class="single-block">
-								<img src="images/portfolio/3.jpg" alt="">
-								<div class="overlay">
-									<div>
-										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
-										<span>Current Project</span>
-									</div>
-								</div> <!-- /.overlay -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.col- -->
-						<div class="col-lg-3 col-sm-6 col-12">
-							<div class="single-block">
-								<img src="images/portfolio/4.jpg" alt="">
-								<div class="overlay">
-									<div>
-										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
-										<span>Current Project</span>
-									</div>
-								</div> <!-- /.overlay -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.col- -->
-						<div class="col-lg-3 col-sm-6 col-12">
-							<div class="single-block">
-								<img src="images/portfolio/5.jpg" alt="">
-								<div class="overlay">
-									<div>
-										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
-										<span>Current Project</span>
-									</div>
-								</div> <!-- /.overlay -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.col- -->
-						<div class="col-lg-3 col-sm-6 col-12">
-							<div class="single-block">
-								<img src="images/portfolio/6.jpg" alt="">
-								<div class="overlay">
-									<div>
-										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
-										<span>Current Project</span>
-									</div>
-								</div> <!-- /.overlay -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.col- -->
-						<div class="col-lg-3 col-sm-6 col-12">
-							<div class="single-block">
-								<img src="images/portfolio/7.jpg" alt="">
-								<div class="overlay">
-									<div>
-										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
-										<span>Current Project</span>
-									</div>
-								</div> <!-- /.overlay -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.col- -->
-						<div class="col-lg-3 col-sm-6 col-12">
-							<div class="single-block">
-								<img src="images/portfolio/8.jpg" alt="">
-								<div class="overlay">
-									<div>
-										<h6><a href="/nos-projets/detail">Thought Leadership</a></h6>
-										<span>Current Project</span>
-									</div>
-								</div> <!-- /.overlay -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.col- -->
+						@break($loop->iteration == 8)
+					@endforeach
 					</div> <!-- /.row -->
 
 					<div class="view-all-project text-center clearfix"><a href="/nos-projets" class="theme-button-one">Voir plus</a></div> <!-- /.view-all-project -->
@@ -276,102 +173,27 @@
 						<h2 class="title">Événements à venir</h2>
 					</div> <!-- /.theme-title-one -->
 					<div class="service-slider">
+					@foreach ($events as $event)
+						@continue($loop->iteration == 0)
 						<div class="item">
 							<div class="single-block">
 								<div class="img-box">
-									<img src="images/service/1.jpg" alt="">
-									<div class="overlay">
+									<img src="{{ asset($event->photo) }}" alt="{{$event->nom}}">
+									<!-- <div class="overlay">
 										<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="play-button"><i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
+									</div>  -->
+									<!-- /.overlay -->
 								</div> <!-- /.img-box -->
 								<div class="text">
 									<div class="srvc-name">
-										<h5><a href="service-details.html">Business Consulting</a></h5>
-										<span>We are Consulting Company</span>
+										<h5><a href="/event/detail/{{$event->id}}">{{$event->nom}}</a></h5>
+										<!-- <span>We are Consulting Company</span> -->
 									</div> <!-- /.srvc-name -->
 								</div> <!-- /.text -->
 							</div> <!-- /.single-block -->
 						</div> <!-- /.item -->
-						<div class="item">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/2.jpg" alt="">
-									<div class="overlay">
-										<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="play-button"><i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<div class="srvc-name">
-										<h5><a href="service-details.html">IT Consulting</a></h5>
-										<span>We are Consulting Company</span>
-									</div> <!-- /.srvc-name -->
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="item">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/3.jpg" alt="">
-									<div class="overlay">
-										<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="play-button"><i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Lawyers Consulting</a></h5>
-										<span>We are Consulting Company</span>
-									</div> <!-- /.srvc-name -->
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="item">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/1.jpg" alt="">
-									<div class="overlay">
-										<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="play-button"><i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Financial Consulting</a></h5>
-										<span>We are Consulting Company</span>
-									</div> <!-- /.srvc-name -->
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="item">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/2.jpg" alt="">
-									<div class="overlay">
-										<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="play-button"><i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Products Consulting</a></h5>
-										<span>We are Consulting Company</span>
-									</div> <!-- /.srvc-name -->
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="item">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/3.jpg" alt="">
-									<div class="overlay">
-										<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="play-button"><i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Trades &amp; Stocks</a></h5>
-										<span>We are Consulting Company</span>
-									</div> <!-- /.srvc-name -->
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
+						@break($loop->iteration == 6)
+					@endforeach
 					</div> <!-- /.service-slider -->
 					<div class="view-all-service clearfix">
 						<a href="/evenements" class="theme-button-one">Voir plus</a>
@@ -385,7 +207,7 @@
 				Partner Section One
 			=====================================================
 			-->
-			<div class="partner-section-one">
+			<!-- <div class="partner-section-one">
 				<div class="overlay">
 					<div class="container">
 						<div class="partner-slider">
@@ -395,8 +217,8 @@
 							<div class="item"><img src="{{ asset('images/logo/p-4.png') }}" alt=""></div>
 							<div class="item"><img src="{{ asset('images/logo/p-5.png') }}" alt=""></div>
 						</div>
-					</div> <!-- /.container -->
-				</div> <!-- /.overlay -->
-			</div> <!-- /.partner-section-one -->
+					</div> 
+				</div> 
+			</div>  -->
 @endsection
 			

@@ -95,7 +95,7 @@
     overflow: hidden;
 }
 #loader {
-    background: url(../images/1.gif);
+    background: url(../images/atd-animated.gif);
     width: 64px;
     height: 64px;
     position: relative;
@@ -598,11 +598,11 @@ body .theme-button-one:hover {
     margin-left: 0;
     margin-right: 0;
 }
-#theme-main-banner .camera_prev,
+/* #theme-main-banner .camera_prev,
 #theme-main-banner .camera_next {
     background: transparent;
-}
-#theme-main-banner .camera_prev span,
+} */
+/* #theme-main-banner .camera_prev span,
 #theme-main-banner .camera_next span {
     background: none;
     position: relative;
@@ -610,13 +610,13 @@ body .theme-button-one:hover {
     height: auto;
     position: relative;
     width: 100px;
-}
+} */
 #theme-main-banner .camera_prev span {
     right: 20px;
 }
-#theme-main-banner .camera_next span {
+/* #theme-main-banner .camera_next span {
     right: 97px;
-}
+} */
 #theme-main-banner .camera_prev span:before,
 #theme-main-banner .camera_next span:before {
     position: absolute;
@@ -631,13 +631,13 @@ body .theme-button-one:hover {
     writing-mode: vertical-rl;
     text-orientation: sideways-right;
 }
-#theme-main-banner .camera_prev span:before {
+/* #theme-main-banner .camera_prev span:before {
     content: "P  r  e  v";
-}
-#theme-main-banner .camera_next span:before {
+} */
+/* #theme-main-banner .camera_next span:before {
     content: "n  e  x  t";
-}
-#theme-main-banner .camera_prev:before,
+} */
+/* #theme-main-banner .camera_prev:before,
 #theme-main-banner .camera_next:before {
     font-family: "font-awesome";
     font-size: 18px;
@@ -651,10 +651,10 @@ body .theme-button-one:hover {
 }
 #theme-main-banner .camera_prev:before {
     content: "";
-}
-#theme-main-banner .camera_next:before {
+} */
+/* #theme-main-banner .camera_next:before {
     content: "";
-}
+} */
 #theme-main-banner .consultation-form {
     position: absolute;
     right: 0;
@@ -2239,7 +2239,7 @@ body .theme-button-one:hover {
 }
 /*---------------------- Theme Inner Banner -----------------------*/
 .theme-inner-banner .overlay {
-    padding: 140px 0;
+    padding: 100px 0;
     background: rgba(30, 30, 30, 0.7);
     text-align: center;
 }
@@ -2248,7 +2248,9 @@ body .theme-button-one:hover {
     font-weight: 700;
     color: #fff;
     margin-bottom: 30px;
+    margin-top: 85px;
 }
+
 .theme-inner-banner ul li {
     display: inline-block;
     color: #fff;

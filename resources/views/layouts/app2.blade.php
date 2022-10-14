@@ -46,8 +46,19 @@
 					<div class="container">
 						<nav class="menuTop">
 							<ul>
-								<li class="float-right"><a href="/register" class="textStyle">Adhérer à l'ATD</a></li>
-								<li class="float-right"><a href="/login" class="textStyle">Se connecter</a></li>
+								@guest
+									<li class="float-right"><a href="/register" class="textStyle">Adhérer à l'ATD</a></li>
+									<li class="float-right"><a href="/login" class="textStyle">Se connecter</a></li>
+								@else
+									<li class="float-right"><a href="/member/home" class="textStyle">Dashboard</a></li>
+									<li class="float-right">
+										<a href="{{ route('logout') }}" class="textStyle" onclick="event.preventDefault(); 
+										document.getElementById('logout-form').submit();">Se déconnecter</a>
+									</li>
+									<form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+										@csrf
+									</form>
+								@endguest
 							</ul>
 						</nav>
 					</div> <!-- /.container -->
@@ -82,7 +93,7 @@
 			<footer class="theme-footer-one">
 				<div class="container">
 					<div class="top-footer">
-						<div class="logo"><a href="index.html"><img src="{{asset('images/logo/atd-footer.png')}}" alt="logo"></a></div>
+						<div class="logo"><a href="/"><img src="{{asset('images/logo/atd-footer.png')}}" alt="logo"></a></div>
 						<ul class="clearfix">
 							<li>
 								<i class="icon flaticon-smartphone"></i>
