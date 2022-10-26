@@ -15,7 +15,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        $events = Events::latest()->get();
+        $events = Events::paginate(9);
         return view("events.eventsGrid", compact("events"));
     }
 
@@ -26,7 +26,7 @@ class EventController extends Controller
      */
     public function adminIndex()
     {
-        $events = Events::latest()->get();
+        $events = Events::latest()->paginate(6);
         return view("admin.event.event", compact("events"));
     }
 
@@ -62,7 +62,7 @@ class EventController extends Controller
         'photo' => $path,
         ]);
     
-        return redirect('/admin/event')->withSuccess('Événement créé avec succès');
+        return redirect("/admin/event")->withSuccess('Événement créé avec succès');
     }
 
     /**
@@ -142,6 +142,6 @@ class EventController extends Controller
     {
         Storage::delete($events->photo);
         $events->delete();
-        return redirect("/admin/event");
+        return redirect("/admin/event")->withSuccess('Événement supprimé avec succès');
     }
 }

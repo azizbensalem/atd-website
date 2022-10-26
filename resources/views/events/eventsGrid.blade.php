@@ -17,7 +17,7 @@
 				Theme Inner Banner
 			============================================== 
 			-->
-			<div class="theme-inner-banner section-spacing" style="background: url(images/home/event.jpg) no-repeat center; background-size:cover;">
+			<div class="theme-inner-banner section-spacing" style="background: url('/images/home/accueil1.jpg') no-repeat center; background-size:cover;">
 				<div class="overlay">
 					<div class="container">
 						<h2 class="title">Événements à venir</h2>
@@ -57,6 +57,7 @@
 						</div> <!-- /.item -->
 						@endforeach
 					</div> <!-- /.row -->
+					<span>{{$events->links()}}</span>
                     <!-- <div class="theme-pagination">
 								<ul class="clearfix">
 									<li class="active"><a href="#">1</a></li>

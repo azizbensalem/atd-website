@@ -29,7 +29,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -54,9 +54,13 @@ class RegisterController extends Controller
             'lastname' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-            'birthday' => ['required', 'string', 'max:255'],
+            'telephone' => ['required', 'string', 'max:255'],
+            'specialite' => ['required', 'string', 'max:255'],
+            'diplome' => ['required', 'string', 'max:255'],
+            'activitepro' => ['required', 'string', 'max:255'],
+            'lieutravail' => ['string', 'max:255'],
+            'paiement' => ['required', 'string', 'max:255'],
             'photo' => ['required','mimes:jpg,png,jpeg,gif,svg'],
-            'cv' => ['required','mimes:pdf'],
         ]);
     }
 
@@ -72,11 +76,16 @@ class RegisterController extends Controller
             'firstname' => $data['firstname'],
             'lastname' => $data['lastname'],
             'email' => $data['email'],
-            'birthday' => $data['birthday'],
+            'telephone' => $data['telephone'],
+            'specialite' => $data['specialite'],
+            'diplome' => $data['diplome'],
+            'activitepro' => $data['activitepro'],
+            'lieutravail' => $data['lieutravail'],
+            'paiement' => $data['paiement'],
             'photo' => $data['photo']->store('public'),
-            'cv' => $data['cv']->store('public'),
             'password' => Hash::make($data['password']),
-            'approved' => 0
+            'approved' => 0,
+            'role' => 0,
         ]);
     }
 }

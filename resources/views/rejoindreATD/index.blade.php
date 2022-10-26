@@ -17,7 +17,7 @@
 				Theme Inner Banner
 			============================================== 
 			-->
-			<div class="theme-inner-banner section-spacing" style="background: url() no-repeat center; background-size:cover;">
+			<div class="theme-inner-banner section-spacing" style="background: url('/images/home/accueil1.jpg') no-repeat center; background-size:cover;">
 				<div class="overlay">
 					<div class="container">
 						<h2 class="title">Rejoindre l’ATD</h2>
@@ -34,26 +34,29 @@
 			<div class="service-details section-spacing">
 				<div class="container">
 					<div class="row">
-					<div class="col-xl-12 col-lg-12 col-12">
-                    <div class="service-content">
-
-                        <h3 class="main-title" style="color: rgb(255 0 0);">Rejoindre l’ATD</h3><br>
-                        <p>Devenir membre à l’ATD c’est l’occasion d’appartenir à une communauté
-                        solide qui permette de mettre en pratique son amour pour le design et son savoir-
-                        faire.</p>
-                        <p>En effet, les adhérents ont pour seul et unique intérêt l’amour du design, et
-                        c’est précisément pour cela que cet organisme se propose de les réunir et de
-                        valoriser ce secteur, tout en leur offrant les moyens de le faire.</p>
-                        <p>Parce que la force du collectif est primordiale pour avancer, et parce que le
-                        designer est capable d’améliorer la qualité de vie et le monde, l’ATD propose
-                        un espace de rassemblement pour mettre en pratique cette vision et mise sur ses
-                        adhérents pour avancer et évoluer.</p>
-                        <p>Par ailleurs, adhérer à l’ATD garanti un épanouissement communautaire, un
-                        développement associatif et une mobilisation des compétences et ce tant au
-                        niveau académique, universitaire que professionnel.</p>
-                    </div>
-                    </div>
-				</div> <!-- /.row -->
+						<div class="col-xl-8 col-lg-8 col-12">
+							<div class="service-content">
+								<h1 class="main-title" style="color: rgb(220,0,0);">REJOINDRE L’ATD</h1>
+								<p>Devenir membre à l’ATD c’est l’occasion d’appartenir à une communauté
+								solide qui permette de mettre en pratique son amour pour le design et son savoir-
+								faire.</p>
+								<p>En effet, les adhérents ont pour seul et unique intérêt l’amour du design, et
+								c’est précisément pour cela que cet organisme se propose de les réunir et de
+								valoriser ce secteur, tout en leur offrant les moyens de le faire.</p>
+								<p>Parce que la force du collectif est primordiale pour avancer, et parce que le
+								designer est capable d’améliorer la qualité de vie et le monde, l’ATD propose
+								un espace de rassemblement pour mettre en pratique cette vision et mise sur ses
+								adhérents pour avancer et évoluer.</p>
+								<p>Par ailleurs, adhérer à l’ATD garanti un épanouissement communautaire, un
+								développement associatif et une mobilisation des compétences et ce tant au
+								niveau académique, universitaire que professionnel.</p>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-12">
+							<img src="/images/blog/objectifs.jpg" />
+						</div>
+						<hr style="width:98%;margin-top:50px;background-color:rgb(255,0,0);">
+					</div>
 			</div> <!-- /.service-style-two -->
 
 @endsection

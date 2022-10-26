@@ -131,6 +131,7 @@
 #mega-menu-holder > ul > li.active > a:before,
 #mega-menu-holder > ul > li:hover > a:before {
     width: 100%;
+    margin-bottom: 25px !important;
 }
 /*#mega-menu-holder>ul> li.has-submenu> a {padding-right: 40px;}*/
 #mega-menu-holder li > ul.dropdown {

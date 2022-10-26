@@ -10,31 +10,11 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    // public function __construct()
-    // {
-    //     $this->middleware('auth');
-    // }
-
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-    */
     public function index()
     {
         return view('home');
     }
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-    */
     public function home()
     {
         $news = News::latest()->get();
@@ -44,15 +24,5 @@ class HomeController extends Controller
         return view('home', compact("news", "projects", "events"));
     }
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-    */
-    public function rejoindre()
-    {
-        $news = News::latest()->get();
-
-        return view('rejoindreATD');
-    }
+    
 }

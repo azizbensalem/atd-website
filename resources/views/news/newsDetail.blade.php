@@ -16,7 +16,7 @@
 				Theme Inner Banner
 			============================================== 
 			-->
-			<div class="theme-inner-banner section-spacing" style="background: url(images/home/inner-banner-4.jpg) no-repeat center; background-size:cover;">
+			<div class="theme-inner-banner section-spacing" style="background: url('/images/home/accueil1.jpg') no-repeat center; background-size:cover;">
 				<div class="overlay">
 					<div class="container">
 						<h2 class="title">{{$news->title}}</h2>
@@ -47,7 +47,7 @@
 									<h3>{{$news->title}}</h3>
 								</div> <!-- /.title -->
 								<div class="image-box" style="text-align: -webkit-center;"><img src="{{asset($news->image)}}" alt="{{$news->title}}"></div>
-								<p class="upper-text">{{$news->description}}</p>
+								<p class="upper-text">{!! nl2br(htmlspecialchars($news->description, ENT_NOQUOTES)) !!}</p>
 							</div> <!-- /.single-classic-news -->
 						</div> <!-- /.col- -->		
 					</div> <!-- /.row -->

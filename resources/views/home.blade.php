@@ -11,27 +11,23 @@
 </ul>
 @endsection
 @section('content')
+<style>
+.majus {
+	color: rgb(230,0,0);
+}
+</style>
 			<!-- 
 			=============================================
 				Theme Main Banner
 			============================================== 
 			-->
 			<div id="theme-main-banner" class="banner-two section-spacing">
-			<div data-src="images/home/accueil.jpg">
-					<div class="camera_caption">
-						<div class="container">
-						<h1 class="wow fadeInUp animated">Alliance tunisienne des designers</h1>
-							<p class="wow fadeInUp animated" data-wow-delay="0.2s">L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
-							<a href="about.html" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.278s">Read more</a>
-						</div> <!-- /.container -->
-					</div> <!-- /.camera_caption -->
-				</div>
 				<div data-src="images/home/accueil.jpg">
 					<div class="camera_caption">
 						<div class="container">
-						<h1 class="wow fadeInUp animated">Alliance tunisienne des designers</h1>
+							<h1 class="wow fadeInUp animated" style="display: flex;"><div class="majus">A</div>lliance&nbsp;<div class="majus">T</div>unisienne&nbsp;des&nbsp;<div class="majus">D</div>esigners</h1>
 							<p class="wow fadeInUp animated" data-wow-delay="0.2s">L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
-							<a href="about.html" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.278s">Read more</a>
+							<a href="/rejoindre_atd" class="btn btn-light wow fadeInUp animated" data-wow-delay="0.278s">Rejoindre ATD</a>
 						</div> <!-- /.container -->
 					</div> <!-- /.camera_caption -->
 				</div>
@@ -49,15 +45,25 @@
 						<h2 class="title">À propos</h2>
 					</div> 
 					<div class="row">
-						<div class="col-lg-12 col-12 wow fadeInLeft animated">
+						<div class="col-xl-7 col-lg-7 col-12 wow fadeInLeft animated">
 							<div class="text-wrapper">
-								<h3 class="main-title">Notre vision</h3><br>
-								<p>Le design se préoccupe d&#39;humaniser le monde et de changer la qualité de vie de
-								l’Homme, et c’est justement la principale devise de l’ATD que celle-ci tend à
-								affirmer, à appliquer et à faire profiter à ses différents adhérents, étudiants
-								soient-ils, enseignants ou professionnels...</p>
-							</div><br>
-							<a href="/a-propos" class="theme-button-one">Voir plus</a>
+								<h3 class="main-title" style="color:rgb(230,0,0);">L’ATD, C’EST QUOI?</h3><br>
+								<p>Puisque c’est important d’appartenir à une communauté solide, de prendre une 
+								part active à la vie de sa profession, et de partager son amour du design et le 
+								mettre en pratique, l’ATD se propose d’offrir un espace convivial, culturel, 
+								dynamique et sérieux afin de permettre aux designers de se réunir autour 
+								d’objectifs communs, d’évoluer ensemble, de valoriser leurs travaux, et de 
+								garantir la continuité et l’avenir du design.</p>
+								<p>L’ATD c’est aussi un espace de rencontre, d’échange, de partage et de débat 
+								permettant de motiver les designers dans un esprit d’ouverture tout en garantissant 
+								l’éthique et la dynamique du métier. </p><br>
+								</div><br>
+							<a href="/a-propos" style="color: rgb(0 0 0); font-weight: bold;">VOIR PLUS</a>
+						</div>
+						<div class="col-xl-5 col-lg-5 col-12 pt-xl-4 pt-lg-4 pl-xl-5 pl-lg-5">
+							<video width="448" controls>
+								<source src="/videos/274736370_267074598779707_5908083012527899771_n.mp4" type="video/mp4">
+							</video>
 						</div>
 					</div>
 				</div> 
@@ -69,30 +75,23 @@
 			=====================================================
 			-->
 			<div id="counter" class="theme-counter-section section-spacing">
-				<div class="overlay" style="padding: 50px;">
+				<div class="overlay" style="padding-top: 60px;padding-bottom: 30px;">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 col-6">
 								<div class="single-counter">
-									<i class="icon flaticon-target"></i>
+									<i class="icon fa fa-briefcase"></i>
 									<div class="number"><span class="timer" data-from="0" data-to="7" data-speed="1200" data-refresh-interval="5">0</span></div>
 									<p>Le nombre des membres du bureau exécutif</p>
 								</div> <!-- /.single-counter -->
 							</div> <!-- .col- -->
 							<div class="col-md-6 col-6">
 								<div class="single-counter">
-									<i class="icon flaticon-suitcase"></i>
+									<i class="icon fa fa-users"></i>
 									<div class="number"><span class="timer" data-from="0" data-to="100" data-speed="1200" data-refresh-interval="5">0</span>+</div>
 									<p>Le nombre d’adhérents</p>
 								</div> <!-- /.single-counter -->
 							</div> <!-- .col- -->
-							<!-- <div class="col-md-6 col-6">
-								<div class="single-counter">
-									<i class="icon flaticon-trophy"></i>
-									<div class="number"><span class="timer" data-from="0" data-to="1703" data-speed="1200" data-refresh-interval="5">0</span>+</div>
-									<p>Mortgage Award Winnings</p>
-								</div> 
-							</div> -->
 						</div> <!-- /.row -->
 					</div> <!-- /.container -->
 				</div> <!-- /.overlay -->

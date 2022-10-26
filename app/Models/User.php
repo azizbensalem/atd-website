@@ -8,7 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class User extends Authenticatable
+class User extends Authenticatable /* implements MustVerifyEmail */
 {
     use HasApiTokens, HasFactory, Notifiable;
 
@@ -21,11 +21,16 @@ class User extends Authenticatable
         'firstname',
         'lastname',
         'email',
-        'birthday',
-        'cv',
+        'telephone',
+        'specialite',
+        'diplome',
+        'activitepro',
+        'lieutravail',
+        'paiement',
         'photo',
         'password',
         'approved',
+        'role',
     ];
 
     /**
@@ -46,4 +51,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function memberships()
+    {
+        return $this->hasMany(Membership::class);
+    }
+
+    public function projects()
+    {
+        return $this->hasMany(Project::class);
+    }
 }

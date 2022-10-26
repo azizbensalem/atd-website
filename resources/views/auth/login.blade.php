@@ -1,11 +1,12 @@
 @extends('layouts.app2')
 @section('menu')
 <ul class="clearfix">
-	<li><a href="/">Accueil</a></li>
-	<li><a href="#about-us">À propos</a></li>
-	<li><a href="#news">News</a></li>
-	<li><a href="#project">Nos projets</a></li>
-	<li><a href="#event">Événements à venir</a></li>
+	<li ><a href="/">Accueil</a></li>
+	<li><a href="/a-propos">À propos</a></li>
+	<li><a href="/rejoindre_atd">Rejoindre ATD</a></li>
+	<li><a href="/#news">News</a></li>
+	<li><a href="/#project">Nos projets</a></li>
+	<li><a href="/#event">Événements à venir</a></li>
 	<li><a href="/contact">Contact</a></li>
 </ul>
 @endsection
@@ -15,7 +16,7 @@
 				Theme Inner Banner
 			============================================== 
 			-->
-			<div class="theme-inner-banner section-spacing" style="background: url(images/home/inner-banner-4.jpg) no-repeat center; background-size:cover;">
+			<div class="theme-inner-banner section-spacing" style="background: url('/images/home/accueil1.jpg') no-repeat center; background-size:cover;">
 				<div class="overlay">
 					<div class="container">
 						<h2 class="title">Login</h2>

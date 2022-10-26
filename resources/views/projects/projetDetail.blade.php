@@ -43,7 +43,7 @@
 					<div class="row project-details-info">
 						<div class="col-lg-8 col-12">
 							<h5 class="inner-title">{{$projects->title}}</h5>
-							<p>{{$projects->description}}</p>
+							<p>{!! nl2br(htmlspecialchars($projects->description, ENT_NOQUOTES)) !!}</p>
 							<!-- <ul class="list-text clearfix">
 								<li>Rapaciously seize tive infomediaries</li>
 								<li>Financial Services Consulting</li>

@@ -2,33 +2,35 @@
 @section('menu')
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <ul class="nav">
+        @if (Auth::user()->role == '2')
         <li class="nav-item">
-            <a class="nav-link" href="/admin/home">
-                <i class="icon-grid menu-icon"></i>
-                <span class="menu-title">Dashboard</span>
+            <a class="nav-link active" href="/admin/admins">
+                <i class="ti-user menu-icon"></i>
+                <span class="menu-title">Administrateurs</span>
             </a>
         </li>
+        @endif
         <li class="nav-item">
             <a class="nav-link" href="/admin/users">
-                <i class="icon-grid menu-icon"></i>
+                <i class="fa fa-users menu-icon"></i>
                 <span class="menu-title">Membres</span>
             </a>
         </li>
         <li class="nav-item active">
             <a class="nav-link" href="/admin/news">
-                <i class="icon-grid menu-icon"></i>
+                <i class="fa fa-newspaper-o menu-icon"></i>
                 <span class="menu-title">News</span>
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="/admin/event">
-                <i class="icon-grid menu-icon"></i>
+                <i class="fa fa-calendar menu-icon"></i>
                 <span class="menu-title">Événements à venir</span>
             </a>
         </li>
         <li class="nav-item ">
             <a class="nav-link" href="/admin/projects">
-                <i class="icon-grid menu-icon"></i>
+                <i class="fa fa-building menu-icon"></i>
                 <span class="menu-title">Les projets</span>
             </a>
         </li>
@@ -52,12 +54,12 @@
                     <textarea class="form-control" name="description" rows="12"placeholder="Ajouter le texte de l'article">{{$news->description}}</textarea>
                 </div>
                 <div class="form-group">
-                    <label>Image</label>
+                    <label>Image (la dimension de l'image doit être: 870 X 554)</label>
                     <div class="input-group col-xs-12">
                     <input type="file" name="image" value="{{$news->image}}" class="file-upload-browse" placeholder="Upload Image">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary mr-2">Envoyer</button>
+                <button type="submit" class="btn btn-success mr-2">Modifier</button>
                 <a href="/admin/news" class="btn btn-light">Annuler</a>
             </form>
         </div>

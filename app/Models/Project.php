@@ -21,7 +21,7 @@ class Project extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'title', 'description', 'image', 'participants' ];
+    protected $fillable = [ 'title', 'type', 'description', 'comite1', 'comite2', 'comite3', 'comite4', 'image', 'chef_project_id', 'question1', 'question2', 'questionc1', 'questionc2' ];
 
     /**
      * Indicates if the model's ID is auto-incrementing.
@@ -42,4 +42,15 @@ class Project extends Model
     {
         return $this->hasMany(Member::class);
     }
+
+    public function memberships()
+    {
+        return $this->hasMany(Membership::class);
+    }
+
+    public function chef_project()
+    {
+        return $this->belongsTo(User::class);
+    }
+
 }

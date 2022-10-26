@@ -24,6 +24,7 @@
             type="text/css"
             href="{{ asset('admin/js/select.dataTables.min.css') }}"
         />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- End plugin css for this page -->
         <!-- inject:css -->
         <link rel="stylesheet" href="{{ asset('admin/css/vertical-layout-light/style.css') }}" />
@@ -31,6 +32,23 @@
         <link rel="shortcut icon" href="{{ asset('admin//images/fav-icon/icon.png') }}" />
     </head>
     <body>
+        <style>
+            form {
+                display: contents;
+            }
+            button {
+                border: none;
+            }
+            label {
+                font-weight: bold;!important
+            }
+            select {
+                color: #000000!important;
+            }
+            h1, h2, h3, h4, h5 {
+                text-transform: none!important;
+            }
+        </style>
         <div class="container-scroller">
             <!-- partial:partials/_navbar.html -->
             <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
@@ -72,14 +90,14 @@
                                 aria-labelledby="profileDropdown"
                             >   
                                 <a class="dropdown-item">{{ Auth::user()->firstname }} {{ Auth::user()->lastname }}</a>
-                                <!-- <a class="dropdown-item">
+                                <a class="dropdown-item" href="@if (Auth::user()->role == '0') /member/profile/edit @else /admin/profile/edit @endif">
                                     <i class="ti-settings text-primary"></i>
-                                    Settings
-                                </a> -->
+                                    Modifier le profil
+                                </a>
                                 <a class="dropdown-item" href="{{ route('logout') }}" 
                                 onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                     <i class="ti-power-off text-primary"></i>
-                                    Logout
+                                    Déconnexion
                                 </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

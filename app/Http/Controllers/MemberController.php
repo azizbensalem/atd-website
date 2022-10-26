@@ -39,17 +39,21 @@ class MemberController extends Controller
         $this->validate($request, [
             'firstname' => 'bail|required|string|max:255',
             'lastname' => 'bail|required|string|max:255',
-            'birthday' => 'bail|required|string|max:255',
+            'email' => ['required', 'string', 'email', 'max:255'],
+            'question1' => 'bail|string|max:255',
+            'question2' => 'bail|string|max:255',
         ]);
     
         Member::create([
         "firstname" => $request->firstname,
         "lastname" => $request->lastname,
-        "birthday" => $request->birthday,
+        "email" => $request->email,
+        "question1" => $request->question1,
+        "question2" => $request->question2,
         "project_id" => $projects->id,
         ]);
 
-        return redirect("/membership/".$projects->id);
+        return redirect("/membership/".$projects->id)->withSuccess('Formulaire envoyé avec succès');
     }
 
     /**

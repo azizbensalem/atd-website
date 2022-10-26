@@ -15,7 +15,7 @@ class NewsController extends Controller
      */
     public function index()
     {
-        $news = News::latest()->get();
+        $news = News::paginate(6);
         return view("news.newsGrid", compact("news"));
     }
 
@@ -26,7 +26,7 @@ class NewsController extends Controller
      */
     public function adminIndex()
     {
-        $news = News::latest()->get();
+        $news = News::latest()->paginate(6);
         return view("admin.news.news", compact("news"));
     }
 
@@ -62,7 +62,7 @@ class NewsController extends Controller
         "image" => $chemin_image,
         ]);
 
-        return redirect("/admin/news");
+        return redirect("/admin/news")->withSuccess('Actualité créée avec succès');
     }
 
     /**
@@ -129,7 +129,7 @@ class NewsController extends Controller
             "image" => isset($chemin_image) ? $chemin_image : $news->image,
         ]);
 
-        return redirect('/admin/news/show/'.$news->id);
+        return redirect('/admin/news/show/'.$news->id)->withSuccess('Actualité modifiée avec succès');
     }
 
     /**
@@ -142,6 +142,6 @@ class NewsController extends Controller
     {   
         Storage::delete($news->image);
         $news->delete();
-        return redirect("/admin/news");
+        return redirect("/admin/news")->withSuccess('Actualité supprimée avec succès');
     }
 }

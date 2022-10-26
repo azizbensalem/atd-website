@@ -9,7 +9,7 @@ class Member extends Model
 {
     use HasFactory;
 
-      /**
+    /**
      * The table associated with the model.
      *
      * @var string
@@ -21,7 +21,7 @@ class Member extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'firstname', 'lastname', 'birthday', 'project_id' ];
+    protected $fillable = [ 'firstname', 'lastname', 'email', 'question1', 'question2', 'project_id' ];
 
     /**
      * Indicates if the model's ID is auto-incrementing.

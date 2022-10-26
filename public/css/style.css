@@ -84,6 +84,11 @@
 ====================================================================
 
  ***/
+@font-face {
+    font-family: barlow_condensed;
+    src: url(/fonts/barlow-condensed.semibold.ttf);
+}
+
 #loader-wrapper {
     position: fixed;
     top: 0;
@@ -176,7 +181,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     color: #181818;
 }
 h1 {
@@ -580,7 +585,7 @@ body .theme-button-one:hover {
 }
 #theme-main-banner .camera_caption h1 {
     color: #fff;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 #theme-main-banner .camera_caption h1 span {
     display: block;
@@ -704,7 +709,7 @@ body .theme-button-one:hover {
 .feature-work .single-feature .learn-more {
     text-decoration: underline;
     margin-top: 25px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .feature-work .single-feature .learn-more:hover {
     color: #000;
@@ -858,7 +863,7 @@ body .theme-button-one:hover {
     margin-top: 30px;
 }
 .video-presentation .counter-text-wrapper li .number {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: -4px;
@@ -1148,7 +1153,7 @@ body .theme-button-one:hover {
 }
 .call-back-form-one form input,
 .call-back-form-one form .form-control {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     width: 100%;
     height: 50px !important;
     border: 1px solid #dbdbdb;
@@ -1159,7 +1164,7 @@ body .theme-button-one:hover {
     box-shadow: none;
 }
 .call-back-form-one form textarea {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     width: 100%;
     max-width: 100%;
     height: 130px;
@@ -1258,7 +1263,7 @@ body .theme-button-one:hover {
     bottom: 10px;
     left: 10px;
     line-height: 30px;
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     font-weight: 700;
     font-size: 14px;
     color: #fff;
@@ -1271,7 +1276,7 @@ body .theme-button-one:hover {
 .our-blog .single-blog-meta .text .post-info li {
     float: left;
     padding: 0 6px;
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     font-size: 14px;
     font-style: italic;
 }
@@ -1313,7 +1318,7 @@ body .theme-button-one:hover {
     color: #696969;
 }
 .theme-footer-one .top-footer ul li a {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     font-size: 20px;
     color: #ffffff;
 }
@@ -1791,7 +1796,7 @@ body .theme-button-one:hover {
     padding-left: 50px;
 }
 .why-choose-us .call-back-form-two input {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     width: 100%;
     height: 50px;
     border: 1px solid #dbdbdb;
@@ -1801,7 +1806,7 @@ body .theme-button-one:hover {
     margin-bottom: 18px;
 }
 .why-choose-us .call-back-form-two textarea {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     height: 140px;
     max-height: 140px;
     max-width: 100%;
@@ -1908,7 +1913,7 @@ body .theme-button-one:hover {
     font-size: 60px;
 }
 .theme-counter-section .single-counter .number {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     font-size: 60px;
     font-weight: 700;
     color: #fff;
@@ -1980,8 +1985,8 @@ body .theme-button-one:hover {
     border-radius: 5px 5px 0 0;
 }
 .appointment-section .monthly-header-title {
-    font-family: "Tinos", serif;
-    text-transform: capitalize;
+    font-family: barlow_condensed;
+    /* text-transform: capitalize; */
     font-size: 20px;
     color: #fff;
 }
@@ -2034,7 +2039,7 @@ body .theme-button-one:hover {
     border-bottom: 1px solid #ebebeb;
 }
 .appointment-section .monthly-day-title-wrap div {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     line-height: 30px;
     font-size: 16px;
     color: #181818;
@@ -2049,7 +2054,7 @@ body .theme-button-one:hover {
     background: #eff3ff;
 }
 .appointment-section .monthly-day-pick > .monthly-day-number {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     padding-top: 0;
     line-height: 60px;
     text-align: center;
@@ -2119,7 +2124,7 @@ body .theme-button-one:hover {
 }
 #schedule-box form input,
 #schedule-box form .form-control {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     width: 100%;
     height: 50px !important;
     border: 1px solid #dbdbdb;
@@ -2130,7 +2135,7 @@ body .theme-button-one:hover {
     box-shadow: none;
 }
 #schedule-box form textarea {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     width: 100%;
     max-width: 100%;
     height: 130px;
@@ -2186,7 +2191,7 @@ body .theme-button-one:hover {
 }
 .testimonial-section-two .item p {
     max-width: 1170px;
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     font-size: 20px;
     line-height: 30px;
     font-style: italic;
@@ -2255,7 +2260,7 @@ body .theme-button-one:hover {
     display: inline-block;
     color: #fff;
     margin: 0 1px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .theme-inner-banner ul li a {
     color: #fff;
@@ -2313,7 +2318,7 @@ body .theme-button-one:hover {
     margin-bottom: 1px;
 }
 .project-details .project-tab .nav-tabs .nav-link {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     font-size: 17px;
     border: 1px solid #e0e0e0;
     font-weight: 700;
@@ -2916,7 +2921,7 @@ body .theme-button-one:hover {
     margin: 0 auto;
 }
 .contact-us-page .address ul li {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     font-size: 18px;
     color: #181818;
     float: left;
@@ -3025,7 +3030,7 @@ body .theme-button-one:hover {
     margin-bottom: 22px;
 }
 .error-page .or-text {
-    font-family: "Tinos", serif;
+    font-family: barlow_condensed;
     font-size: 30px;
     font-weight: 700;
     color: #181818;

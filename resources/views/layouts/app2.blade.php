@@ -22,6 +22,7 @@
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}">
 		<!-- Theme-Color css -->
 		<link rel="stylesheet" id="jssDefault" href="{{ asset('css/color.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	</head>
 
@@ -50,7 +51,7 @@
 									<li class="float-right"><a href="/register" class="textStyle">Adhérer à l'ATD</a></li>
 									<li class="float-right"><a href="/login" class="textStyle">Se connecter</a></li>
 								@else
-									<li class="float-right"><a href="/member/home" class="textStyle">Dashboard</a></li>
+									<li class="float-right"><a href="/member/projects" class="textStyle">Dashboard</a></li>
 									<li class="float-right">
 										<a href="{{ route('logout') }}" class="textStyle" onclick="event.preventDefault(); 
 										document.getElementById('logout-form').submit();">Se déconnecter</a>
@@ -98,12 +99,12 @@
 							<li>
 								<i class="icon flaticon-smartphone"></i>
 								<h6>Appelez-nous :</h6>
-								<a href="#">77000000</a>
+								<a href="#">+ 216 55 149 149</a>
 							</li>
 							<li>
 								<i class="icon flaticon-message"></i>
 								<h6>Envoyez-nous un email à :</h6>
-								<a href="#">contact@atd.com</a>
+								<a href="#">atd.designers.tn@gmail.com</a>
 							</li>
 						</ul>
 					</div> <!-- /.top-footer -->
@@ -114,7 +115,7 @@
 						<div class="row">
 							<div class="col-lg-3 col-sm-6">
 								<h6 class="title">Adresse</h6>
-								<p>Donald M. Palmer 2595 Pearlman Avenue Sudbury, <span>MA 01776</span> </p>
+								<p>Route EL Ain Km 3.5 3042 Sfax, Tunisie</p>
 							</div> <!-- /.about-widget -->
 
 							<div class="col-lg-4 col-sm-6">
@@ -136,15 +137,10 @@
 							</div> <!-- /.list-widget -->
 
 							<div class="col-lg-3 col-md-6 col-12 subscribe-widget">
-								<h6 class="title">Abonnez-nous</h6>
-								<form action="#">
-									<input type="email" placeholder="Email Address">
-									<button><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-								</form>
-								<p>Inscrivez-vous à notre newsletter pour obtenir les dernières mises à jour et nouvelles.</p>
+								<h6 class="title">Réseaux sociaux</h6>
 								<ul class="social-icon">
+									<li><a href="https://www.facebook.com/atdtunisie"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 								</ul>
@@ -181,7 +177,7 @@
 		<!-- Camera Slider -->
 		<script src="{{ asset('vendor/Camera-master/scripts/jquery.mobile.customized.min.js') }}"></script>
 	    <script src="{{ asset('vendor/Camera-master/scripts/jquery.easing.1.3.js') }}"></script> 
-	    <script src="{{ asset('vendor/Camera-master/scripts/camera.min.js') }}"></script>
+	    <script src="{{ asset('vendor/Camera-master/scripts/camera.js') }}"></script>
 	    <!-- menu  -->
 		<script src="{{ asset('vendor/menu/src/js/jquery.slimmenu.js') }}"></script>
 		<!-- WOW js -->

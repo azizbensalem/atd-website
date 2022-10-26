@@ -17,7 +17,7 @@
 				Theme Inner Banner
 			============================================== 
 			-->
-			<div class="theme-inner-banner section-spacing" style="background: url(images/home/projets.jpg) no-repeat center; background-size:cover;">
+			<div class="theme-inner-banner section-spacing" style="background: url('/images/home/accueil1.jpg') no-repeat center; background-size:cover;">
 				<div class="overlay">
 					<div class="container">
 						<h2 class="title">Nos projets</h2>
@@ -48,13 +48,14 @@
 									<div class="overlay">
 										<div>
 											<h6><a href="/nos-projets/detail/{{$project->id}}">{{ $project->title }}</a></h6>
-											<span>Current Project</span>
 										</div>
 									</div> <!-- /.overlay -->
 								</div> <!-- /.single-block -->
 							</div> <!-- /.col- -->
 						@endforeach
 					</div> <!-- /.row -->
+					<br>
+					<span>{{$projects->links()}}</span>
 				</div> <!-- /.container -->
 				<!-- <div class="theme-pagination text-center">
 					<ul class="clearfix">

@@ -46,7 +46,7 @@
 							<div class="service-content">
 								<img src="images/home/13.jpg" alt="" class="cover-img">
 								<h3 class="main-title">{{ $events->nom }}</h3>
-								<p>{{ $events->contenu }}</p>
+								<p>{!! nl2br(htmlspecialchars($events->contenu, ENT_NOQUOTES)) !!}</p>
 							</div> <!-- /.service-content -->
 						</div> <!-- /.col- -->
 					</div> <!-- /.row -->
