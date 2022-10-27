@@ -56,6 +56,11 @@
                   <p class="card-description">
                   @if ((Auth::user()->role == '1') || (Auth::user()->role == '2')) <a class="badge badge-info" href="/admin/projects/create">Ajouter</a>@endif
                   </p>
+                  @if(Session::has('message'))
+                      <div class="alert alert-danger mt-1 mb-1">
+                        {{Session::get('message')}}
+                      </div><br>
+                  @endif
                   @if(Session::has('success'))
                       <div class="alert alert-success mt-1 mb-1">
                         {{Session::get('success')}}

@@ -60,7 +60,6 @@ class UserController extends Controller
             'diplome' => 'required|string|max:255',
             'activitepro' => 'required|string|max:255',
             'lieutravail' => 'string|max:255',
-            'paiement' => 'required|string|max:255',
         ];
 
         if ($request->has("photo")) {
@@ -82,7 +81,6 @@ class UserController extends Controller
             "diplome" => $request->diplome,
             "activitepro" => $request->activitepro,
             "lieutravail" => $request->lieutravail,
-            "paiement" => $request->paiement,
             "photo" => isset($chemin_image) ? $chemin_image : $user->photo,
         ]);
 
@@ -224,12 +222,6 @@ class UserController extends Controller
     {
         Storage::delete($user->photo);
         $user->delete();
-
-        // if (auth()->user()->role == '0') {
-        //     $var = 'member';
-        // } else {
-        //     $var = 'admin';
-        // }
 
         return redirect("/admin/admins")->withSuccess('Compte supprimé avec succès');
     }

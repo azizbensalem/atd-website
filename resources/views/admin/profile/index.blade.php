@@ -142,17 +142,6 @@
                     @enderror
                     <input type="file" class="file-upload-browse" name="photo" value="{{Auth::user()->photo}}" id="photo">
                 </div>
-                <div class="col-xs-12 col-lg-12 col-12 form-group">
-                    <label>Si vous n'avez pas encore payé votre adhésion pour l'année 2022 (année administrative) d'un montant de 30dt, vous pouvez choisir l'une des options suivantes.</label>
-                    @error('paiement')
-                    <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
-                    @enderror
-                    <select id="paiement" type="text" class="form-control" name="paiement" value="{{Auth::user()->paiement}}" required>
-                        <option name="paiement" value="Faire un virement et envoyer ensuite le justificatif par mail à : atd.designers.tn@gmail.com" <?php if(Auth::user()->paiement=="Faire un virement et envoyer ensuite le justificatif par mail à : atd.designers.tn@gmail.com"){ echo "selected=selected";}  ?>>Faire un virement et envoyer ensuite le justificatif par mail à : atd.designers.tn@gmail.com</option>
-                        <option name="paiement" value="Prendre contact avec un responsable en appelant le 95 991 992 ou en envoyant un mail à : atd.designers.tn@gmail.com" <?php if(Auth::user()->paiement=="Prendre contact avec un responsable en appelant le 95 991 992 ou en envoyant un mail à : atd.designers.tn@gmail.com"){ echo "selected=selected";}  ?>>Prendre contact avec un responsable en appelant le 95 991 992 ou en envoyant un mail à : atd.designers.tn@gmail.com</option>
-                        <option name="paiement" value="J'ai déjà payé mon adhésion pour l'année 2022" <?php if(Auth::user()->paiement=="J'ai déjà payé mon adhésion pour l'année 2022"){ echo "selected=selected";}  ?>>J'ai déjà payé mon adhésion pour l'année 2022</option>
-                    </select>
-                </div>
                 </div>
                 <button type="submit" class="btn btn-success mr-2">Modifier</button>
                 @if (Auth::user()->role == 1)

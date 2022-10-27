@@ -184,10 +184,8 @@
 									<!-- /.overlay -->
 								</div> <!-- /.img-box -->
 								<div class="text">
-									<div class="srvc-name">
-										<h5><a href="/event/detail/{{$event->id}}">{{$event->nom}}</a></h5>
+										<h5><a href="/event/detail/{{$event->id}}" style="color: rgb(0,0,0);">{{$event->nom}}</a></h5>
 										<!-- <span>We are Consulting Company</span> -->
-									</div> <!-- /.srvc-name -->
 								</div> <!-- /.text -->
 							</div> <!-- /.single-block -->
 						</div> <!-- /.item -->

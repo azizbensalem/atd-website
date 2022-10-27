@@ -115,7 +115,7 @@
 						<div class="row">
 							<div class="col-lg-3 col-sm-6">
 								<h6 class="title">Adresse</h6>
-								<p>Route EL Ain Km 3.5 3042 Sfax, Tunisie</p>
+								<p>Route EL Ain Km 3.5 <br>Sfax 3042, Tunisie</p>
 							</div> <!-- /.about-widget -->
 
 							<div class="col-lg-4 col-sm-6">
@@ -139,10 +139,10 @@
 							<div class="col-lg-3 col-md-6 col-12 subscribe-widget">
 								<h6 class="title">Réseaux sociaux</h6>
 								<ul class="social-icon">
-									<li><a href="https://www.facebook.com/atdtunisie"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+									<li style="margin: 0!important;"><a href="https://www.facebook.com/atdtunisie"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li style="margin: 0!important;"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li style="margin: 0!important;"><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+									<li style="margin: 0!important;"><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 								</ul>
 							</div> <!-- /.subscribe-widget -->
 						</div> <!-- /.row -->

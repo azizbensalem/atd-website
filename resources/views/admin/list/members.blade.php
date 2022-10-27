@@ -66,11 +66,12 @@
                             <tr>
                             <th>Nom et prénom</th>
                             <th>Adhésion</th>
+                            <th>Comité</th>
                             </tr>
                         </thead>
                         <tbody>
                         @foreach ($memberships as $member)
-                            @if (($member->project->id == $projects->id) && (isset($member->user->firstname)))
+                            @if (isset($member->user->firstname))
                             <tr>
                             <td>{{$member->user->firstname}}&nbsp;{{$member->user->lastname}}</td>
                             <td>
@@ -80,6 +81,7 @@
                                     <a class="badge badge-danger">En attente</a>
                                 @endif
                             </td>
+                            <td>{{$member->comite}}</td>
                             <td>
                                 @if ($member->approved == 0)
                                     <form  method="POST" action="/admin/projects/membership/{{$member->id}}" >

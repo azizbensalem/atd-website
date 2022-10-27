@@ -66,16 +66,22 @@
                                 <tr>
                                 <th>Nom et prénom</th>
                                 <th>Email</th>
+                                <th>Téléphone</th>
+                                <th>Quelles sont vos attentes ?</th>
                                 </tr>
                             </thead>
                             <tbody>
                             @foreach ($projects->members as $member)
-                                @if (($member->project->id == $projects->id))
                                     <tr>
                                         <td>{{$member->firstname}}&nbsp;{{$member->lastname}}</td>
                                         <td>{{$member->email}}</td>
+                                        @if ($member->question1)
+                                            <td>{{$member->question1}}</td>
+                                        @endif
+                                        @if ($member->question2)
+                                            <td>{{$member->question2}}</td>
+                                        @endif
                                     </tr>
-                                @endif
                             @endforeach
                             </tbody>
                             </table>

@@ -134,13 +134,13 @@ class ProjectController extends Controller
 
     public function showAllMembers(Project $projects)
     {   
-        $memberships = Membership::paginate(12);
+        $memberships = Membership::where('project_id', $projects->id)->paginate(12);
         return view("admin.list.members", compact("projects", "memberships"));
     }
 
     public function showAllParticipants(Project $projects)
     {   
-        $memberships = Membership::paginate(12);
+        $memberships = Membership::where('project_id', $projects->id)->paginate(12);
         return view("admin.list.participants", compact("projects", "memberships"));
     }
 

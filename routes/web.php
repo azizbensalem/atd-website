@@ -101,19 +101,19 @@ Route::prefix('admin')->middleware(['auth', 'isAdmin'])->group(function() {
 
 Route::prefix('member')->middleware(['auth'])->group(function() {
 
-        // Projects controller
+        // Profile controllers
+        Route::get('/profile/edit', [UserController::class, 'profileEdit']);
+        Route::put('/profile/update/{user}', [UserController::class, 'updateProfile']);
+        Route::get('/profile/edit/password', [UserController::class, 'editPasswordProfileMember']);
+        Route::put('/profile/update/password/{user}', [UserController::class, 'changePasswordProfile']);
+
+        // Projects controllers
         Route::get('/projects', [ProjectController::class, 'adminIndex']);
         Route::get('/projects/show/{projects}', [ProjectController::class, 'show']);
 
-        //Member controller
-        Route::get('/profile/edit', [UserController::class, 'profileEdit']);
-        Route::put('/profile/update/{user}', [UserController::class, 'updateProfile']);
-        Route::get('/projects/membership/{project}', [MembershipController::class, 'create']);
-        Route::post('/projects/membership/{project}', [MembershipController::class, 'store']);
-        Route::delete('/projects/membership/delete/{memberships}', [MembershipController::class, 'supprimer']);
-        
-        Route::get('/profile/edit/password', [UserController::class, 'editPasswordProfileMember']);
-        Route::put('/profile/update/password/{user}', [UserController::class, 'changePasswordProfile']);
+        Route::get('/projects/membership/{project}', [MembershipController::class, 'create'])->middleware('isApproved');
+        Route::post('/projects/membership/{project}', [MembershipController::class, 'store'])->middleware('isApproved');
+        Route::delete('/projects/membership/delete/{memberships}', [MembershipController::class, 'supprimer'])->middleware('isApproved');
     
 });
 
