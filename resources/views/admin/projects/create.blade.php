@@ -84,7 +84,7 @@
                     </select>
                 </div>
                 <div class="col-xs-6 col-lg-6 col-12 form-group">
-                    <label for="files">Image (la dimension de l'image doit être: 870 X 554)</label>
+                    <label for="files">Image (la dimension de l'image doit être: 291 X 253)</label>
                     @error('image')
                         <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
                     @enderror

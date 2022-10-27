@@ -76,7 +76,7 @@
                         </select>                    
                     </div>
                     <div class="col-xs-6 col-lg-6 col-12 form-group">
-                        <label>Image (la dimension de l'image doit être: 870 X 554)</label><br>
+                        <label>Image (la dimension de l'image doit être: 291 X 253)</label><br>
                         <input type="file" name="image" value="{{$projects->image}}" class="file-upload-browse" placeholder="Upload Image">
                     </div>
                     <div class="col-xs-6 col-lg-6 col-12 form-group">

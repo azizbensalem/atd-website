@@ -22,7 +22,7 @@
 			============================================== 
 			-->
 			<div id="theme-main-banner" class="banner-two section-spacing">
-				<div data-src="images/home/accueil.jpg">
+				<div data-src="images/home/accueil2.jpg">
 					<div class="camera_caption">
 						<div class="container">
 							<h1 class="wow fadeInUp animated" style="display: flex;"><div class="majus">A</div>lliance&nbsp;<div class="majus">T</div>unisienne&nbsp;des&nbsp;<div class="majus">D</div>esigners</h1>
