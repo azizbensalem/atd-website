@@ -61,6 +61,7 @@ class RegisterController extends Controller
             'lieutravail' => ['string', 'max:255'],
             'paiement' => ['required', 'string', 'max:255'],
             'photo' => ['required','mimes:jpg,png,jpeg,gif,svg'],
+            'fdiplome' => ['required','mimes:pdf'],
         ]);
     }
 
@@ -83,6 +84,7 @@ class RegisterController extends Controller
             'lieutravail' => $data['lieutravail'],
             'paiement' => $data['paiement'],
             'photo' => $data['photo']->store('public'),
+            'fdiplome' => $data['fdiplome']->store('public'),
             'password' => Hash::make($data['password']),
             'approved' => 0,
             'role' => 0,

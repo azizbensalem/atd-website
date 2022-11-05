@@ -27,7 +27,7 @@ return new class extends Migration
             $table->string('paiement');
             $table->string('password');
             $table->string('photo');
-            $table->string('cv');
+            $table->string('fdiplome');
             $table->boolean('approved');
             // $table->rememberToken();
             $table->timestamps();

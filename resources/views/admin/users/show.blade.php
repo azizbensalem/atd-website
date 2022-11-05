@@ -85,6 +85,10 @@
                         <label>Photo</label><br>
                         <img src="{{ asset($user->photo) }}" style="max-height: 200px;" />
                     </div>
+                    <div class="col-xs-6 col-lg-6 col-12 form-group">
+                        <label>Votre diplôme en design</label><br>
+                        <a href="{{ asset($user->fdiplome) }}">Lien du diplôme</a>
+                    </div>
                 </div>
                 <a href="/admin/users/edit/{{$user->id}}" class="btn btn-success mr-2">Modifier</a>
                 <a href="/admin/users/newpassword/{{$user->id}}" class="btn btn-info mr-2">Changer le mot de passe</a>

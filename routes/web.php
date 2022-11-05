@@ -127,7 +127,7 @@ Route::get('/home', function () {
 Route::get('/rejoindre_atd', function () {
     return view('rejoindreATD.index');
 });
-Route::get('/a-propos', function () {
+Route::get('a-propos', function () {
     return view('a-propos.index');
 });
 

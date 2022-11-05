@@ -118,7 +118,8 @@ class UserController extends Controller
             'activitepro' => 'required|string|max:255',
             'lieutravail' => 'string|max:255',
             'paiement' => 'required|string|max:255',
-            'photo' => 'required|mimes:jpg,png,jpeg,gif,svg',        
+            'photo' => 'required|mimes:jpg,png,jpeg,gif,svg',  
+            'fdiplome' => 'required|mimes:pdf',       
         ]);
 
         $chemin_image = $request->photo->store("public");
@@ -135,6 +136,7 @@ class UserController extends Controller
             "lieutravail" => $request->lieutravail,
             "paiement" => $request->paiement,
             "photo" => $chemin_image,
+            "fdiplome" => $request->fdiplome->store("public"),
             "role" => 0,
             "approved" => 1,
         ]);

@@ -195,6 +195,20 @@
                         </div>
 
                         <div class="row mb-3">
+                            <label for="fdiplome" class="col-md-4 col-form-label text-md-end">{{ __('Votre diplôme en design') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="fdiplome" type="file" class="@error('fdiplome') is-invalid @enderror" name="fdiplome" value="{{ old('fdiplome') }}" required autocomplete="fdiplome" autofocus>
+
+                                @error('fdiplome')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Mot de passe') }}</label>
 
                             <div class="col-md-6">

@@ -21,9 +21,9 @@
                 <div class="form-group">
                     <label>Comité</label>
                     <select class="form-control" name="comite">
-                        <option name="comite" value="Comité 1">Comité 1</option>
-                        <option name="comite" value="Comité 2">Comité 2</option>
-                        <option name="comite" value="Comité 3">Comité 3</option>
+                        <option name="comite" value="Comité sponsoring">Comité sponsoring</option>
+                        <option name="comite" value="Comité communication">Comité communication</option>
+                        <option name="comite" value="Comité événementiel">Comité événementiel</option>
                         <option name="comite" value="Comité 4">Comité 4</option>
                     </select>
                 </div>

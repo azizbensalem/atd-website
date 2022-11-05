@@ -55,11 +55,11 @@
                 <div
                     class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center"
                 >
-                    <a class="navbar-brand brand-logo mr-5" href="/admin/home"
-                        ><img src="/images/logo/atd.png" class="mr-2" alt="logo"
+                    <a class="navbar-brand brand-logo mr-5" href="/"
+                        ><img src="/images/logo/atd.svg" width="100%" class="mr-2" alt="logo"
                     /></a>
-                    <a class="navbar-brand brand-logo-mini" href="/admin/home"
-                        ><img src="/images/logo/atd-small.png" alt="logo"
+                    <a class="navbar-brand brand-logo-mini" href="/"
+                        ><img src="/images/logo/atd-small.svg" width="100%" alt="logo"
                     /></a>
                 </div>
                 <div

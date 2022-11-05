@@ -94,16 +94,16 @@
                         <textarea class="form-control" name="description" rows="12" placeholder="Modifier les tâches du comité 1">{{$projects->description}}</textarea>
                     </div>
                     <div class="col-xs-6 col-lg-6 col-12 form-group">
-                        <label>Tâches du comité 1</label>
-                        <textarea class="form-control" name="comite1" rows="12" placeholder="Modifier les tâches du comité 1">{{$projects->comite1}}</textarea>
+                        <label>Tâches du comité sponsoring</label>
+                        <textarea class="form-control" name="comite1" rows="12" placeholder="Modifier les tâches du comité sponsoring">{{$projects->comite1}}</textarea>
                     </div>
                     <div class="col-xs-6 col-lg-6 col-12 form-group">
-                        <label>Tâches du comité 2</label>
-                        <textarea class="form-control" name="comite2" rows="12" placeholder="Modifier les tâches du comité 2">{{$projects->comite2}}</textarea>
+                        <label>Tâches du comité communication</label>
+                        <textarea class="form-control" name="comite2" rows="12" placeholder="Modifier les tâches du comité communication">{{$projects->comite2}}</textarea>
                     </div>
                     <div class="col-xs-6 col-lg-6 col-12 form-group">
-                        <label>Tâches du comité 3</label>
-                        <textarea class="form-control" name="comite3" rows="12" placeholder="Modifier les tâches du comité 3">{{$projects->comite3}}</textarea>
+                        <label>Tâches du comité événementiel</label>
+                        <textarea class="form-control" name="comite3" rows="12" placeholder="Modifier les tâches du comité événementiel">{{$projects->comite3}}</textarea>
                     </div>
                     <div class="col-xs-6 col-lg-6 col-12 form-group">
                         <label>Tâches du comité 4</label>

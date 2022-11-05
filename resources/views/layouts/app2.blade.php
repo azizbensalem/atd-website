@@ -15,7 +15,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="#151515">
 		<title>Alliance Tunisienne des Designers</title>
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="{{ asset('images/fav-icon/icon.png') }}">
+		<link rel="icon" type="image/png" sizes="56x56" href="{{ asset('images/logo/atd-small.svg') }}">
 		<!-- Main style sheet -->
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
 		<!-- responsive style sheet -->
@@ -69,7 +69,7 @@
 					<div class="container">
 						<div class="inner-wrapper clearfix">
 							<!-- ================= Logo ==================== -->
-							<div class="logo"><a href="/"><img src="/images/logo/atd.png" alt="logo"></a></div>
+							<div class="logo"><a href="/"><img src="/images/logo/atd.svg" width="73%"></a></div>
 							<!-- ============== Menu Warpper ================ -->
 					   		<div class="menu-wrapper float-right">
 					   			<nav id="mega-menu-holder" class="clearfix">
@@ -94,12 +94,12 @@
 			<footer class="theme-footer-one">
 				<div class="container">
 					<div class="top-footer">
-						<div class="logo"><a href="/"><img src="{{asset('images/logo/atd-footer.png')}}" alt="logo"></a></div>
+						<div class="logo"><a href="/"><img src="{{asset('images/logo/atd-footer.svg')}}" width="75%" alt="logo"></a></div>
 						<ul class="clearfix">
 							<li>
 								<i class="icon flaticon-smartphone"></i>
 								<h6>Appelez-nous :</h6>
-								<a href="#">+ 216 55 149 149</a>
+								<a href="#">+ 216 95 991 992</a>
 							</li>
 							<li>
 								<i class="icon flaticon-message"></i>

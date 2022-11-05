@@ -86,19 +86,19 @@
                 <div class="row">
                 @if (isset($projects->comite1))
                     <div class="col-xs-6 col-lg-6 col-sm-6 col-12 form-group">
-                        <label>Tâches du comité 1</label>
+                        <label>Tâches du comité sponsoring</label>
                         <p>{!! nl2br(htmlspecialchars($projects->comite1, ENT_NOQUOTES)) !!}</p>
                     </div>
                 @endif
                 @if (isset($projects->comite2))
                     <div class="col-xs-6 col-lg-6 col-sm-6 col-12 form-group">
-                        <label>Tâches du comité 2</label>
+                        <label>Tâches du comité communication</label>
                         <p>{!! nl2br(htmlspecialchars($projects->comite2, ENT_NOQUOTES)) !!}</p>
                     </div>
                 @endif
                 @if (isset($projects->comite3))
                     <div class="col-xs-6 col-lg-6 col-sm-6 col-12 form-group">
-                        <label>Tâches du comité 3</label>
+                        <label>Tâches du comité événementiel</label>
                         <p>{!! nl2br(htmlspecialchars($projects->comite3, ENT_NOQUOTES)) !!}</p>
                     </div>
                 @endif

@@ -143,7 +143,14 @@
                         <option name="paiement" value="J'ai déjà payé mon adhésion pour l'année 2022">J'ai déjà payé mon adhésion pour l'année 2022</option>
                     </select>
                 </div>
-                <div class="col-xs-12 col-lg-12 col-12 form-group">
+                <div class="col-xs-6 col-lg-6 col-12 form-group">
+                    <label for="photo">Votre diplome en design</label>
+                    @error('fdiplome')
+                    <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                    @enderror
+                    <input type="file" class="file-upload-browse" name="fdiplome" id="photo">
+                </div>
+                <div class="col-xs-6 col-lg-6 col-12 form-group">
                     <label for="photo">Photo</label>
                     @error('photo')
                     <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>

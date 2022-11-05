@@ -52,7 +52,7 @@
 							</li>
 							<li>
 								<i class="flaticon-phone-call"></i>
-								<p>Appelez-nous :<br>+ 216 55 149 149</p>
+								<p>Appelez-nous :<br>+ 216 95 991 992</p>
 							</li>
 							<li>
 								<i class="flaticon-email"></i>

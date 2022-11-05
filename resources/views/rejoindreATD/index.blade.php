@@ -34,7 +34,7 @@
 			<div class="service-details section-spacing">
 				<div class="container">
 					<div class="row">
-						<div class="col-xl-8 col-lg-8 col-12">
+						<div class="col-xl-6 col-lg-6 col-12">
 							<div class="service-content">
 								<h1 class="main-title" style="color: rgb(220,0,0);">REJOINDRE L’ATD</h1>
 								<p>Devenir membre à l’ATD c’est l’occasion d’appartenir à une communauté
@@ -52,10 +52,9 @@
 								niveau académique, universitaire que professionnel.</p>
 							</div>
 						</div>
-						<div class="col-xl-4 col-lg-4 col-12">
-							<img src="/images/blog/objectifs.jpg" />
+						<div class="col-xl-6 col-lg-6 col-12 pt-lg-5 pt-xl-5">
+							<img src="/images/home/rejoindre_atd2.jpg" />
 						</div>
-						<hr style="width:98%;margin-top:50px;background-color:rgb(255,0,0);">
 					</div>
 			</div> <!-- /.service-style-two -->
 

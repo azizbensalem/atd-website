@@ -15,6 +15,18 @@
 .majus {
 	color: rgb(230,0,0);
 }
+.butn {
+  border: 1px solid black;
+  background-color: #f0f0f0;;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.butn-red {
+  border-color: rgb(200,0,0);
+  color: rgb(200,0,0);
+}
 </style>
 			<!-- 
 			=============================================
@@ -27,7 +39,7 @@
 						<div class="container">
 							<h1 class="wow fadeInUp animated" style="display: flex;"><div class="majus">A</div>lliance&nbsp;<div class="majus">T</div>unisienne&nbsp;des&nbsp;<div class="majus">D</div>esigners</h1>
 							<p class="wow fadeInUp animated" data-wow-delay="0.2s">L’Alliance Tunisienne des Designers est une association crée en Mai 2012 par un groupe de designers soucieux de concevoir une structure tunisienne où se réunissent les professionnels du métier avec ses différentes spécialités.</p>
-							<a href="/rejoindre_atd" class="btn btn-light wow fadeInUp animated" data-wow-delay="0.278s">Rejoindre ATD</a>
+							<a href="/rejoindre_atd" class="butn butn-red wow fadeInUp animated" data-wow-delay="0.278s">Rejoindre ATD</a>
 						</div> <!-- /.container -->
 					</div> <!-- /.camera_caption -->
 				</div>
@@ -45,7 +57,7 @@
 						<h2 class="title">À propos</h2>
 					</div> 
 					<div class="row">
-						<div class="col-xl-7 col-lg-7 col-12 wow fadeInLeft animated">
+						<div class="col-xl-6 col-lg-6 col-12 wow fadeInLeft animated">
 							<div class="text-wrapper">
 								<h3 class="main-title" style="color:rgb(230,0,0);">L’ATD, C’EST QUOI?</h3><br>
 								<p>Puisque c’est important d’appartenir à une communauté solide, de prendre une 
@@ -60,8 +72,8 @@
 								</div><br>
 							<a href="/a-propos" style="color: rgb(0 0 0); font-weight: bold;">VOIR PLUS</a>
 						</div>
-						<div class="col-xl-5 col-lg-5 col-12 pt-xl-4 pt-lg-4 pl-xl-5 pl-lg-5">
-							<video width="448" controls>
+						<div class="col-xl-6 col-lg-6 col-12 pt-xl-4 pt-lg-4 pl-xl-5 pl-lg-5">
+							<video width="100%" controls>
 								<source src="/videos/274736370_267074598779707_5908083012527899771_n.mp4" type="video/mp4">
 							</video>
 						</div>
@@ -197,25 +209,5 @@
 					</div> <!-- /.view-all-service -->
 				</div> <!-- /.container -->
 			</div> <!-- /.service-style-two -->
-		
-
-			<!--
-			=====================================================
-				Partner Section One
-			=====================================================
-			-->
-			<!-- <div class="partner-section-one">
-				<div class="overlay">
-					<div class="container">
-						<div class="partner-slider">
-							<div class="item"><img src="{{ asset('images/logo/p-1.png') }}" alt=""></div>
-							<div class="item"><img src="{{ asset('images/logo/p-2.png') }}" alt=""></div>
-							<div class="item"><img src="{{ asset('images/logo/p-3.png') }}" alt=""></div>
-							<div class="item"><img src="{{ asset('images/logo/p-4.png') }}" alt=""></div>
-							<div class="item"><img src="{{ asset('images/logo/p-5.png') }}" alt=""></div>
-						</div>
-					</div> 
-				</div> 
-			</div>  -->
 @endsection
 			

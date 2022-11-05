@@ -43,7 +43,7 @@
 				<div class="container">
                     <div class="service-content">
 					<div class="row">
-						<div class="col-xl-7 col-lg-7 col-12">
+						<div class="col-xl-6 col-lg-6 col-12">
 							<h1 class="main-title">L’ATD, C’EST QUOI?</h1>
 							<p>Puisque c’est important d’appartenir à une communauté solide, de prendre une 
 							part active à la vie de sa profession, et de partager son amour du design et le 
@@ -55,16 +55,16 @@
 							permettant de motiver les designers dans un esprit d’ouverture tout en garantissant 
 							l’éthique et la dynamique du métier. </p><br>
 						</div>
-						<div class="col-xl-5 col-lg-5 col-12 pt-xl-5 pt-lg-5 pl-xl-5 pl-lg-5">
-							<video width="448" controls>
+						<div class="col-xl-6 col-lg-6 col-12 pt-xl-5 pt-lg-5 pl-xl-5 pl-lg-5">
+							<video width="100%;" controls>
 								<source src="/videos/274736370_267074598779707_5908083012527899771_n.mp4" type="video/mp4">
 							</video>
 						</div>
-						<hr style="width:98%;margin-top:50px;margin-bottom:50px;background-color:rgb(255,0,0);">
+						<div style="width:98%;margin-top:50px;margin-bottom:50px;"></div>
 						<div class="col-xl-6 col-lg-6 col-12">
 							<img src="/images/blog/designers.jpg" />
 						</div>
-						<div class="col-xl-6 col-lg-6 col-12">
+						<div class="col-xl-6 col-lg-6 col-12 pl-xl-5 pl-lg-5">
 							<h1 class="main-title" style="line-height:45px!important;">L’ATD, UNE ASSOCIATION AU SERVICE DU 
 							DESIGN ET DES DESIGNERS</h1><br>
 							<p>L’ATD est une association qui s’adresse aux designers, amoureux du design, qui souhaitent 
@@ -73,7 +73,7 @@
 							dans un environnement de confiance, ou l’appartenance communautaire et l’identité commune sont les 
 							maitres-mots. </p>
                     	</div>
-						<hr style="width:98%;margin-top:50px;margin-bottom:50px;background-color:rgb(255,0,0);">
+						<div style="width:98%;margin-top:50px;margin-bottom:50px;"></div>
 						<div class="col-xl-7 col-lg-7 col-12">
 							<h1 class="main-title">L’ATD A POUR OBJECTIFS DE :</h1>
 							<ul>
@@ -101,11 +101,11 @@
 						<div class="col-xl-5 col-lg-5 col-12 pl-xl-4 pl-lg-4">
 							<img src="/images/blog/rejoindre.jpg" />
 						</div>
-						<hr style="width:98%;margin-top:50px;margin-bottom:50px;background-color:rgb(255,0,0);">
+						<div style="width:98%;margin-top:50px;margin-bottom:50px;"></div>
 						<div class="col-xl-6 col-lg-6 col-12">
 							<img src="/images/blog/qualite.jpg" />
 						</div>
-						<div class="col-xl-6 col-lg-6 col-12">
+						<div class="col-xl-6 col-lg-6 col-12 pl-xl-5 pl-lg-5">
 							<h1 class="main-title" style="line-height:45px!important;">LE DESIGN POUR LA QUALITÉ DE VIE</h1><br>
 							<p>Le design se préoccupe d'humaniser le monde et de changer la qualité de vie de l’Homme, et c’est 
 							justement la principale devise de l’ATD que celle-ci tend à affirmer, à appliquer et à faire profiter 
@@ -115,18 +115,18 @@
 							particulier parce qu’il met en pratique les convictions des fondateurs et rallie les adhérents 
 							autour d’une même et unique devise</p>
                     	</div>
-						<hr style="width:98%;margin-top:50px;margin-bottom:50px;background-color:rgb(255,0,0);">
-						<div class="col-xl-7 col-lg-7 col-12">
+						<div style="width:98%;margin-top:50px;margin-bottom:50px;"></div>
+						<div class="col-xl-6 col-lg-6 col-12">
 							<h1 class="main-title">NAISSANCE DE L’ATD</h1>
 							<p>Devant l’absence d’organisme qui réunit les designers, et le manque de dynamisme constaté 
 							autour du design, l’Alliance Tunisienne des Designers a vu le jour en 2012 et n’a cessé 
 							depuis de se développer au moyen de travaux, d’évènements, de partenariats, de projets, 
 							de stages, d’activités, de réunions et de formations.</p>
                     	</div>
-						<div class="col-xl-5 col-lg-5 col-12 pl-xl-4 pl-lg-4">
+						<div class="col-xl-6 col-lg-6 col-12 pl-xl-5 pl-lg-5">
 							<img src="/images/blog/naissance.jpg" />
 						</div>
-						<hr style="width:98%;margin-top:50px;margin-bottom:50px;background-color:rgb(255,0,0);">
+						<div style="width:98%;margin-top:50px;margin-bottom:50px;"></div>
                     </div>
 				</div> <!-- /.row -->
 			</div> <!-- /.service-style-two -->

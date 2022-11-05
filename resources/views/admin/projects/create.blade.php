@@ -116,25 +116,25 @@
                     <textarea class="form-control" name="description" rows="12" placeholder="Ajouter la description du projet" required></textarea>
                 </div>
                 <div class="col-xs-6 col-lg-6 col-12 form-group">
-                    <label>Tâches du comité 1</label>
+                    <label>Tâches du comité sponsoring</label>
                     @error('comite1')
                         <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
                     @enderror
-                    <textarea class="form-control" name="comite1" rows="12" placeholder="Ajouter les tâches du comité 1"></textarea>
+                    <textarea class="form-control" name="comite1" rows="12" placeholder="Ajouter les tâches du comité sponsoring"></textarea>
                 </div>
                 <div class="col-xs-6 col-lg-6 col-12 form-group">
-                    <label>Tâches du comité 2</label>
+                    <label>Tâches du comité communication</label>
                     @error('comite2')
                         <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
                     @enderror
-                    <textarea class="form-control" name="comite2" rows="12" placeholder="Ajouter les tâches du comité 2"></textarea>
+                    <textarea class="form-control" name="comite2" rows="12" placeholder="Ajouter les tâches du comité communication"></textarea>
                 </div>
                 <div class="col-xs-6 col-lg-6 col-12 form-group">
-                    <label>Tâches du comité 3</label>
+                    <label>Tâches du comité événementiel</label>
                     @error('comite3')
                         <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
                     @enderror
-                    <textarea class="form-control" name="comite3" rows="12" placeholder="Ajouter les tâches du comité 3"></textarea>
+                    <textarea class="form-control" name="comite3" rows="12" placeholder="Ajouter les tâches du comité événementiel"></textarea>
                 </div>
                 <div class="col-xs-6 col-lg-6 col-12 form-group">
                     <label>Tâches du comité 4</label>
